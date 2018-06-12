@@ -1,0 +1,24 @@
+/* style.css */
+
+/* Define a colour palette */
+:root {
+    --cl-background: #17181a;
+    --cl-purple: #c666ff;
+    --cl-red: #e52375;
+    --cl-yellow: #ffe474;
+    --cl-green: #50f0bb;
+    --cl-bed: #44dcff;
+
+    --cl-white: #fff;
+    --cl-w10: rgba(1, 1, 1, .1);
+    --cl-w20: rgba(1, 1, 1, .2);
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--cl-background);
+}
