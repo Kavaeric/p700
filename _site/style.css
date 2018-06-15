@@ -2,13 +2,14 @@
 
 /* Define a colour palette */
 :root {
+    --cl-default: #ff5400;
+
     --cl-background: #17181a;
-    --cl-purple: #c666ff;
+    --cl-purple: #c6289d;
     --cl-red: #e52375;
-    --cl-orange: #ff5400;
     --cl-yellow: #ffe474;
     --cl-green: #50f0bb;
-    --cl-blue: #44dcff;
+    --cl-blue: #4f87ff;
 
     --cl-w5:  rgba(255, 255, 255, .05);
     --cl-w10: rgba(255, 255, 255, .1);
@@ -69,8 +70,14 @@ a {
     text-decoration: none;
     color: var(--cl-accent);
 }
-a:hover {
-    background-color: var(--cl-w10);
+a:hover,
+a:focus {
+    outline-style: none;
+    background: var(--cl-w20);
+}
+a:active {
+    background: var(--cl-accent);
+    color: var(--cl-background)
 }
 
 strong {
@@ -81,57 +88,82 @@ p, h1, h2, h3 {
     font-family: HKGrotesk, sans-serif;
     font-weight: 300;
 }
-h1 {
-    display: block;
-    margin: .5em 0;
-    border-bottom: 2px solid var(--cl-accent);
-    padding-bottom: .2em;
 
-    font-size: 4em;
+h1, h2, h3 {
     line-height: 1em;
 }
+
+h1 {
+    display: block;
+    margin: .3em 0;
+    border-bottom: 2px solid var(--cl-accent);
+    padding-bottom: .1em;
+
+    font-size: 4em;
+}
+
 h2 {
     display: inline-block;
     min-width: 50%;
     margin: .5em 0 0 0;
-    border-bottom: 1.5px solid var(--cl-accent); /* We can have decimal pixels now, apparently */
+    border-bottom: 2px solid var(--cl-accent);
     padding-bottom: .2em;
 
     font-size: 2em;
-    line-height: 1em;
 }
 
+h3 {
+    display: inline-block;
+    min-width: 33%;
+    margin: .5em 0 0 0;
+    border-bottom: 2px solid var(--cl-w20);
+    padding-bottom: .2em;
+
+    font-size: 1.6em;
+}
+
+p {
+    line-height: 1.3em;
+}
+
+h3 + p {
+    margin-top: .6em; /* Reduce line spacing between h3s and paragraphs */
+}
+
+/* Custom bullet styling */
 ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
-
-li {
+ul li {
     padding-left: 1em;
     text-indent: -1em;
 }
-li:before {
+ul li:before {
     content: "▸";
     padding-right: 5px;
 }
 
-
+/* Classes start here */
 .grid-container {
-    width: 100vw;
     min-height: 50vh;
 
     display: grid;
     grid-template-columns: 100vw;
-    grid-template-rows: 5em 2em 1fr 2em;
+    grid-template-rows: 5em 2em 1fr 8em;
     grid-gap: 0;
+    grid-template-areas: 
+        "navbar"
+        "bracket-top"
+        "content"
+        "bracket-bottom"
 }
 
 .navbar {
-    grid-column: 1;
-    grid-row: 1;
+    grid-area: "navbar";
     height: 100%;
-    width: 100%;
+    margin: 0 auto;
 
     display: flex;
     flex-wrap: nowrap;
@@ -151,22 +183,10 @@ li:before {
     margin-left: .5em;
 }
 
-#NavLogo {
-    background: transparent;
-}
-
-#NavLogo div {
-    height: 5em;
-    width: 12em;
-
-    background-image: url(img/logo.png);
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: .8;
-}
-#NavLogo div:hover{
-    opacity: 1;
+.button:hover,
+.button:focus {
+    outline-style: solid;
+    outline-width: 1.5px;
 }
 
 .navbar .button {
@@ -184,33 +204,59 @@ li:before {
     background: var(--cl-w10);
 }
 
-.navbar .button:nth-child(2):hover {
+.navbar .button:nth-child(2):hover,
+.navbar .button:nth-child(2):focus {
     color: var(--cl-red);
 }
 .navbar .button:nth-child(2):active {
     background: var(--cl-red);
     color: var(--cl-background);
 }
-.navbar .button:nth-child(3):hover {
+.navbar .button:nth-child(3):hover,
+.navbar .button:nth-child(3):focus {
     color: var(--cl-blue);
 }
 .navbar .button:nth-child(3):active {
     background: var(--cl-blue);
     color: var(--cl-background);
 }
-.navbar .button:nth-child(4):hover {
+.navbar .button:nth-child(4):hover,
+.navbar .button:nth-child(4):focus {
     color: var(--cl-green);
 }
 .navbar .button:nth-child(4):active {
     background: var(--cl-green);
     color: var(--cl-background);
 }
-.navbar .button:nth-child(5):hover {
+.navbar .button:nth-child(5):hover,
+.navbar .button:nth-child(5):focus {
     color: var(--cl-purple);
 }
 .navbar .button:nth-child(5):active {
     background: var(--cl-purple);
     color: var(--cl-background);
+}
+
+/* +700 logo button */
+#NavLogo {
+    display: inline-block;
+    height: 4em;
+    width: 12em;
+    outline-color: var(--cl-accent);
+
+    background-color: transparent;
+    opacity: .8;
+    background-image: url(img/logo.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#NavLogo:hover {
+    outline: none;
+}
+#NavLogo:hover,
+#NavLogo:focus {
+    opacity: 1;
 }
 
 /* Bracket decorations */
@@ -222,8 +268,7 @@ li:before {
     display: flex;
 }
 .contentBracketTop {
-    grid-column: 1;
-    grid-row: 2;
+    grid-area: "bracket-top";
     margin: 1em auto 0 auto;
     border-top: .1em solid var(--cl-w20);
     border-bottom: .4em solid transparent;
@@ -231,8 +276,7 @@ li:before {
     border-right: .4em solid #fff;
 }
 .contentBracketBottom {
-    grid-column: 1;
-    grid-row: 4;
+    grid-area: "bracket-bottom";
     margin: 1em auto 0 auto;
     border-top: .4em solid transparent;
     border-bottom: .1em solid var(--cl-w20);
@@ -242,6 +286,7 @@ li:before {
 
 
 .content {
+    grid-area: "content";
     grid-column: 1;
     grid-row: 3;
     width: 50em;
