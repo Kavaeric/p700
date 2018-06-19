@@ -35,8 +35,8 @@ form basic binary images from signals being sent, as well as send images of thei
 ### Natural language
 With the ability to now exchange visual information, it was now possible to teach the other their
 own natural language. The Ikamo and Terrans exchanged vocabulary, simple sentences, and grammar for
-Ikamo Akhui and Terran English. Linguists on either side helped decode and translate the language of
-the other party.
+Ikamo [Akhui](Akhui.html) and Terran [English](English.html). Linguists on either side helped decode
+and translate the language of the other party.
 
 Upon more complicated sentence structures being translatable, better forms of communication could
 be divised, such as colour images and eventually video.
@@ -52,3 +52,8 @@ transport through hyperspace. A mutual science deal was agreed upon in 258.
 In 274, the project was completed upon the construction of Gateway Prime, a full-scale hyperspace
 vehicle that travelled faster than existing [warp drive](Warp_Drive.html) technology. That same
 year, Terrans made first physical contact with the Ikamo aboard the ship.
+
+## Legacy
+Peaceful contact and first exchange cemented allegience between the Ikamo and Terrans, even through
+the subsequent [Chorale War](Chorale_War.html). The two nations often work tightly together on major
+public projects, mostly scientific in nature.

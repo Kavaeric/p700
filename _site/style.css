@@ -14,6 +14,7 @@
     --cl-w5:  rgba(255, 255, 255, .05);
     --cl-w10: rgba(255, 255, 255, .1);
     --cl-w20: rgba(255, 255, 255, .2);
+    --cl-w50: rgba(255, 255, 255, .5);
 }
 
 /* Getting some fonts in */
@@ -54,14 +55,19 @@ body {
 
     background: var(--cl-background);
 }
-@media(max-width: 1580px) {
+@media only screen and (max-width: 1280px) {
     body {
         font-size: 18px;
     }
 }
-@media(max-width: 980px) {
+@media only screen and (max-width: 960px) {
     body {
-        font-size: 15px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+        font-size: 14px;
     }
 }
 
@@ -101,10 +107,20 @@ h1 {
 
     font-size: 4em;
 }
+@media only screen and (max-width: 960px) {
+    h1 {
+        font-size: 3.2em;
+    }
+}
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 2.5em;
+    }
+}
 
 h2 {
     display: inline-block;
-    min-width: 50%;
+    min-width: 40%;
     margin: .5em 0 0 0;
     border-bottom: 2px solid var(--cl-accent);
     padding-bottom: .2em;
@@ -114,12 +130,12 @@ h2 {
 
 h3 {
     display: inline-block;
-    min-width: 33%;
+    min-width: 20%;
     margin: .5em 0 0 0;
     border-bottom: 2px solid var(--cl-w20);
     padding-bottom: .2em;
 
-    font-size: 1.6em;
+    font-size: 1.3em;
 }
 
 p {
@@ -128,6 +144,10 @@ p {
 
 h3 + p {
     margin-top: .6em; /* Reduce line spacing between h3s and paragraphs */
+}
+
+sup {
+    font-size: .6em;
 }
 
 /* Custom bullet styling */
@@ -160,103 +180,10 @@ ul li:before {
         "bracket-bottom"
 }
 
-.navbar {
-    grid-area: "navbar";
-    height: 100%;
-    margin: 0 auto;
-
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar > * {
-    margin: 0 .5em;
-}
-.navbar > *:first-child {
-    margin: 0;
-    margin-right: 1em;
-}
-.navbar > *:last-child {
-    margin: 0;
-    margin-left: .5em;
-}
-
 .button:hover,
 .button:focus {
     outline-style: solid;
     outline-width: 1.5px;
-}
-
-.navbar .button {
-    display: inline-block;
-    height: 2em;
-    width: 10em;
-
-    font-size: 1em;
-    font-weight: 500;
-    text-align: center;
-    line-height: 2em;
-    text-decoration: none;
-    color: #fff;
-
-    background: var(--cl-w10);
-}
-
-.navbar .button:nth-child(2):hover,
-.navbar .button:nth-child(2):focus {
-    color: var(--cl-red);
-}
-.navbar .button:nth-child(2):active {
-    background: var(--cl-red);
-    color: var(--cl-background);
-}
-.navbar .button:nth-child(3):hover,
-.navbar .button:nth-child(3):focus {
-    color: var(--cl-blue);
-}
-.navbar .button:nth-child(3):active {
-    background: var(--cl-blue);
-    color: var(--cl-background);
-}
-.navbar .button:nth-child(4):hover,
-.navbar .button:nth-child(4):focus {
-    color: var(--cl-green);
-}
-.navbar .button:nth-child(4):active {
-    background: var(--cl-green);
-    color: var(--cl-background);
-}
-.navbar .button:nth-child(5):hover,
-.navbar .button:nth-child(5):focus {
-    color: var(--cl-purple);
-}
-.navbar .button:nth-child(5):active {
-    background: var(--cl-purple);
-    color: var(--cl-background);
-}
-
-/* +700 logo button */
-#NavLogo {
-    display: inline-block;
-    height: 4em;
-    width: 12em;
-    outline-color: var(--cl-accent);
-
-    background-color: transparent;
-    opacity: .8;
-    background-image: url(img/logo.png);
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#NavLogo:hover {
-    outline: none;
-}
-#NavLogo:hover,
-#NavLogo:focus {
-    opacity: 1;
 }
 
 /* Bracket decorations */
@@ -264,31 +191,39 @@ ul li:before {
 .contentBracketBottom {
     height: 1em;
     width: 60em;
+    max-width: 90vw; /* Scales down if the screen is too narrow */
 
+    border-style: solid;
     display: flex;
 }
 .contentBracketTop {
     grid-area: "bracket-top";
     margin: 1em auto 0 auto;
-    border-top: .1em solid var(--cl-w20);
-    border-bottom: .4em solid transparent;
-    border-left: .4em solid #fff;
-    border-right: .4em solid #fff;
+
+    border-width: .1em .4em .4em .4em; /* Varying the borders like this renders really neat */
+    border-color: var(--cl-w20) #fff transparent #fff;
 }
 .contentBracketBottom {
     grid-area: "bracket-bottom";
     margin: 1em auto 0 auto;
-    border-top: .4em solid transparent;
-    border-bottom: .1em solid var(--cl-w20);
-    border-left: .4em solid #fff;
-    border-right: .4em solid #fff;
-}
 
+    border-width: .4em .4em .1em .4em;
+    border-color: transparent #fff var(--cl-w20) #fff;
+}
+@media only screen and (max-width: 640px) {
+    .contentBracketTop {
+        border-width: .1em .2em .2em .2em;
+    }
+    .contentBracketBottom {
+        border-width: .2em .2em .1em .2em;
+    }
+}
 
 .content {
     grid-area: "content";
     grid-column: 1;
     grid-row: 3;
     width: 50em;
+    max-width: 85vw; /* Scales down if the screen is too narrow */
     margin: 0 auto;
 }

@@ -1,0 +1,57 @@
+/* modal.css */
+
+/* Custom CSS styling for FancyBox */
+a[data-fancybox] {
+    display: block;
+    width: 20em; /* Setting this will also line-break any caption text to be below the image */
+    padding: 1em;
+    margin: 2em auto; /* Default centering alignment */
+    
+    border-style: solid;
+    border-color: var(--cl-w20) transparent; /* Borders on top and bottom only, but keep bevels */
+    border-width: 2px;
+
+    font-size: .8em;
+    color: #fff;
+}
+@media only screen and (min-width: 640px) {
+    a[data-fancybox].left {
+        float: left;
+        margin-left: 0; /* No spacing between the edge of the box and the edge of the content div */
+        margin-right: 3em;
+    }
+    a[data-fancybox].right {
+        float: right;
+        margin-left: 3em;
+        margin-right: 0;
+    }
+}
+a[data-fancybox]:hover,
+a[data-fancybox]:focus {
+    background-color: var(--cl-w5);
+}
+
+a[data-fancybox] img {
+    width: 100%; /* Image must be contained in parent box element */
+}
+
+.fancybox-bg {
+    background: #000;
+}
+.fancybox-is-open .fancybox-bg {
+    opacity: .5;
+}
+.fancybox-button {
+    background: rgba(0, 0, 0, .5);
+    height: 5em;
+    width: 5em;
+}
+
+/* Infobox modals */
+.infobox a[data-fancybox] {
+    width: 100%;
+    padding: .5em 0;
+    margin: 0;
+
+    border: none;
+}
