@@ -103,7 +103,7 @@
     #NavLogo {
         opacity: 1;
         background: #fff;
-        -webkit-mask-image: url(/img/logo.svg);
+        -webkit-mask-image: url(img/logo.svg);
         -webkit-mask-size: 75%;
         -webkit-mask-repeat: no-repeat;
         -webkit-mask-position: center;
