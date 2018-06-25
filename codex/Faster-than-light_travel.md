@@ -12,8 +12,8 @@ In relativistic space, the maximum speed achievable is denoted by the the consta
 approximately 299,792,458 metres per second.
 
 Although it may seem fast, distances in space are massive: At this speed, it would take nearly three
-centuries to travel the 2721m (287.7ly) between [Sol](Sol.html) and [Koa](Koa.html). By using an FTL
-device known as an FTL drive, this limit can be side-stepped to travel galactic distances. 
+centuries to travel the 2721Pm (287.7ly) between [Sol](Sol.html) and [Koa](Koa.html). By using an
+FTL device known as an FTL drive, this limit can be side-stepped to travel galactic distances. 
 
 Two systems of FTL drive exist: The [warp drive](Warp_drive.html) and the
 [quantum drive](Quantum_drive.html). Strictly speaking, however, neither systems are
