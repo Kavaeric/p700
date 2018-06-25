@@ -4,9 +4,9 @@ title: Juxta Sagittaria
 accent: var(--cl-red)
 ---
 
-**Juxta Sagittaria** (The Orion Spur, or Sagittaria for short) is a section of the Sagittarius arm
-of the Galaxy that lies approximately 265 exametres (28 kly) from the galactic core and is inhabited
-by all known forms of life, including all sapient populations.
+**Juxta Sagittaria** (**The Orion Spur**, or **Sagittaria** for short) is a section of the
+Sagittarius arm of the Galaxy that lies approximately 265 exametres (28 kly) from the galactic core
+and is inhabited by all known forms of life, including all sapient populations.
 {% include modal.html file="Juxta_Sagittaria.jpg" caption="Map of Juxta Sagittaria." %}
 
 ## Galactic location

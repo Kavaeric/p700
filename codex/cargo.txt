@@ -1,0 +1,23 @@
+Iakan Mark V aerosynth
+
+Crew: 0
+Passengers: 1
+Length: 21.5 m
+Wingspan: 14.6 m
+
+Empty mass: 18,700 kg
+Full equipment load: 20,300 kg
+
+Thrust (secondary casimir): 104 kN
+Thrust (primary casimir): 460 kN
+
+Holographic plane output: 2000 kJ
+Holographic plane charge rate: 80 kW
+
+Cruise speed at 18 km / 75 mbar: 750 m/s
+Maximum speed at 18 km / 75 mbar: 1200 m/s
+
+Glide descent rate: 5 m/s
+Cruise power: 995 kW
+
+Bank capacity: 550 MWh

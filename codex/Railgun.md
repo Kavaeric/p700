@@ -8,6 +8,7 @@ A **railgun** is an electromagnetic device that accelerates projectiles with ele
 induced by two conducting rails. While finding many applications, the term is often used to refer
 exclusively the weaponised variety.
 
+## Theory
 A railgun is constructed with a pair of electrically conducting rails. An armature containing the
 projectile is placed between them. On activation, current flows from one rail through the armature
 and back down the other, completing a full circuit. The two rails produce a magnetic field that

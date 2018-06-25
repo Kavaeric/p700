@@ -12,27 +12,55 @@ accent: var(--cl-red)
     catname="Sol d"
     cattime="Ancient"
     demonym="Terrene, Tellurian"
-    mass="5.972 &#215; 10<sup>24</sup>"
-    relmass="1.0" 
-    radius="6,371" 
-    relradius="1.0"
+
     dist="149,598,000" 
     reldist="1.0"
     year="365.26"
     ecc="0.0167"
-    grav="9.81"
-    relgrav="1.0"
     sidereal="23h 56m 4s"
     synodic="24h"
+
+    mass="5.972 &#215; 10<sup>24</sup>"
+    relmass="1.0" 
+    radius="6,371" 
+    relradius="1.0"
+    grav="9.81"
+    relgrav="1.0"
+    age="4.45 Gy"
+
+    pressure="101.325"
+    relpressure="1.0"
+    composition="78.1% nitrogen gas<br>
+                 21.0% oxygen gas<br>
+                 ~1% water vapour<br>
+                 < 1% other gases<br>"
+    temp="13.8"
+    ktemp="287"
+
+    pop="15,476,000,000"
+    affil="[Terran Federation](Terran_Federation.html)"
+    settled="Prehistoric"
+    capital="Geneva"
+    largest="Lagos"
+    major="Kinshasa<br>
+           Mumbai<br>
+           Nairobi<br>
+           Cairo<br>
+           London<br>
+           Shanghai<br>
+           Tokyo<br>
+           Istanbul<br>
+           Toronto<br>
+           Rio de Janeiro"
     %}
 
-**Earth** (Sol d, Sol-III) is the third planet from the type-G5V star [Sol](Sol.html). It is the
-fifth largest planet body in the [Solar system](Solar_system.html), as well as the densest. It has
-one natural satellite, [Luna](Luna.html), likely formed from a cataclysmic impact with another
-planet early in the planet's history.
+**Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G5V star [Sol](Sol.html).
+It is the fifth largest planet body in the [Solar system](Solar_system.html), as well as the
+densest. It has one natural satellite, [Luna](Luna.html), likely formed from a cataclysmic impact
+with another planet early in the planet's history.
 
 Earth is the homeworld of [Terrankind](Terrankind.html), as well as the capital and most populated
-planet of [The Terran Federation](Terran Federation.html). It is one of the three political capitals
+planet of [The Terran Federation](Terran_Federation.html). It is one of the three political capitals
 in [Juxta Sagittaria](Juxta_Sagittaria.html), after [Ko](Ko.html) and [Tal](Tal.html).
 
 ## Biosphere
@@ -48,12 +76,32 @@ species.
 
 ## Geography
 Earth is a temperate garden world with large reserves of water. Over two-thirds of the planet is
-covered in ocean. Some, with regards to its abundance of water, affectionately refer to Earth as
-"the blue planet", in comparison to many other planets. The huge bodies of water give rise to
-enormous ocean currents that cycle warn and cool water across the planet's latitudes, affecting
-planetary climate.
+covered in ocean. On dry land, most is covered in thick forests.
 
-While abundant in water, 97.5% is saline, making it untenable to drink without filtration.
+Earth has a solid crust composed of mostly silicate rock material.
+
+### Water
+Some, with regards to its abundance of water, affectionately refer to Earth as "the blue planet", in
+comparison to many other planets. The huge bodies of water give rise to enormous ocean currents that
+cycle warm and cool water across the planet's latitudes, affecting planetary climate.
+
+While abundant in water, 97.5% is saline, making it untenable for Terrans drink it without
+filtration. Plentiful precipitation, however, allows sources of fresh water to be accessed.
+
+Because of the abundance of water, Terran civilisation is very dependent on trade and transport
+across bodies of water. Maritime culture is heavily ingrained in Terran culture as a result, much
+of it having bled into present-day interstellar culture, mostly in terminology.
+
+### Resources
+Being a garden world, Earth is a favourable location for the production of food, both for crops and
+livestock, however Terran legal tradition heavily regulates agriculture on the planet.
+
+Mining grants access to other resources. Hydrocarbon fuels are prevelant due to the planet's
+wetlands in the past, such as coal, natural gas and oil, although again, Terran legal tradition has
+mostly banned the extraction and use of these resources. Other minerals present on the plane
+include vast quantities of materials such as aluminium, copper, silicon, and thorium.
+
+The planet's seawater can be mass desalinised as well to provide fresh water for export.
 
 ## Atmosphere
 Earth's atmosphere is composed of roughly 80% nitrogen gas and 20% oxygen gas, the latter vital to
@@ -70,8 +118,8 @@ hazard.
 milder climates, though advances in technology allowed many to live in harsher conditions on the
 planet.
 
-As of 2717 the planet's population was was estimated at approximately 16 billion inhabitants, and is
-expected to remain mostly stable.
+As of 2717 the planet's population was was estimated at approximately 15.5 billion inhabitants, and
+is expected to remain mostly stable.
 
 ## Hazards
 Although not as extreme as the other planets in its system, Earth's weather can be dangerous due to

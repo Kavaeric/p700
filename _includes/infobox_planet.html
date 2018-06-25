@@ -32,30 +32,9 @@
         <tr>
             <td class="infoname">Demonyms</td>
             <td>{{ include.demonym }}</td>
-         </tr>
-
-        <tr>
-            <th colspan="2">Physical characteristics</th>
-        </tr>
-    
-        <tr>
-            <td class="infoname" rowspan="2">Mass</td>
-            <td>{{ include.mass }} kg</td>
-        </tr>
-        <tr>
-            <td>{{ include.relmass }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
-        </tr>
-        <tr>
-            <td class="infoname" rowspan="2">Mean radius</td>
-            <td>{{ include.radius }} km</td>
-        </tr>
-        <tr>
-            <td>{{ include.relradius }} R<a href="Earth.html"><sub>&#8853;</sub></a></td>
         </tr>
 
-        <tr>
-            <th colspan="2">Orbital characteristics</th>
-         </tr>
+        <tr><th colspan="2">Orbital characteristics</th></tr>
         <tr>
             <td class="infoname" rowspan="2">Semimajor axis</td>
             <td>{{ include.dist }} km</td>
@@ -72,6 +51,30 @@
             <td>{{ include.ecc }}</td>
         </tr>
         <tr>
+            <td class="infoname">Sidereal day</td>
+            <td>{{ include.sidereal }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Synodic day</td>
+            <td>{{ include.synodic }}</td>
+        </tr>
+
+        <tr><th colspan="2">Physical characteristics</th></tr>
+        <tr>
+            <td class="infoname" rowspan="2">Mass</td>
+            <td>{{ include.mass }} kg</td>
+        </tr>
+        <tr>
+            <td>{{ include.relmass }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
+        </tr>
+        <tr>
+            <td class="infoname" rowspan="2">Mean radius</td>
+            <td>{{ include.radius }} km</td>
+        </tr>
+        <tr>
+            <td>{{ include.relradius }} R<a href="Earth.html"><sub>&#8853;</sub></a></td>
+        </tr>
+        <tr>
             <td class="infoname" rowspan="2">Surface gravity</td>
             <td>{{ include.grav }} m/s<sup>2</sup></td>
         </tr>
@@ -79,12 +82,54 @@
             <td>{{ include.relgrav }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
         </tr>
         <tr>
-            <td class="infoname">Sidereal day</td>
-            <td>{{ include.sidereal }}</td>
+            <td class="infoname">Age</td>
+            <td>{{ include.age }}</td>
+        </tr>
+
+        <tr><th colspan="2">Atmospheric</th></tr>
+        <tr>
+            <td class="infoname" rowspan="2">Surface pressure</td>
+            <td>{{ include.pressure }} kPa</td>
         </tr>
         <tr>
-            <td class="infoname">Synodic day</td>
-            <td>{{ include.synodic }}</td>
+            <td>{{ include.relpressure }} Atm<a href="Earth.html"><sub>&#8853;</sub></a></td>
+        </tr>
+        <tr>
+            <td class="infoname">Composition</td>
+            <td>{{ include.composition | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+        <tr>
+            <td class="infoname" rowspan="2">Median temperature</td>
+            <td>{{ include.temp }} &deg;C</td>
+        </tr>
+        <tr>
+            <td>{{ include.ktemp }} K</td>
+        </tr>
+
+        <tr><th colspan="2">Habitation</th></tr>
+        <tr>
+            <td class="infoname">Population</td>
+            <td>{{ include.pop }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Affiliation</td>
+            <td>{{ include.affil | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Settled</td>
+            <td>{{ include.settled }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Political capital</td>
+            <td>{{ include.capital | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Largest settlement</td>
+            <td>{{ include.largest | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+        </tr>
+        <tr>
+            <td class="infoname">Major settlements</td>
+            <td>{{ include.major | markdownify | remove: '<p>' | remove: '</p>' }}</td>
         </tr>
     </tbody>
 </table>
