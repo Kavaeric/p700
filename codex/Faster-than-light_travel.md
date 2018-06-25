@@ -8,7 +8,7 @@ vehicle to travel faster than the universal speed limit, permitting rapid travel
 distances in space that could otherwise take centuries or even millennia.
 
 ## Theory
-In relativistic space, the maximum speed achievable is denoted by the the constant <sr>c</cr>,
+In relativistic space, the maximum speed achievable is denoted by the the constant <sr>c</sr>,
 approximately 299,792,458 metres per second.
 
 Although it may seem fast, distances in space are massive: At this speed, it would take nearly three
