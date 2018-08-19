@@ -2,7 +2,7 @@
 
 div.infobar {
     width: 35em;
-    margin: 0 auto;
+    margin: .5em auto;
     border-bottom: 2px solid var(--cl-w20);
 
     display: grid;
@@ -15,7 +15,7 @@ div.infobar {
     font-size: .8em;
 
     animation-name: flash;
-    animation-duration: .3s;
+    animation-duration: .2s;
     animation-timing-function: ease-in-out;
     animation-delay: .1s;
     animation-fill-mode: both;
@@ -33,40 +33,21 @@ div.infobar div.header {
 
 div.infobar div.sym {
     grid-area: sym;
-}
-
-div.infobar.wip div.sym {
-    grid-area: sym;
-    display: inline-block;
-    padding-bottom: .1em;
-    margin: auto;
-
-    font-size: 4em;
-    font-weight: 600;
-
-    color: var(--cl-default);
-    user-select: none;
-    -moz-user-select: none;
-
-}
-div.infobar.wip div.sym {
-    animation-name: pulse;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-div.infobar.vilous div.sym {
     display: block;
-    width: 90%;
-    margin: auto;
+    width: 100%;
     padding: 1em 0;
 }
-div.infobar.vilous div.sym img {
-    width: 100%;
-}
+div.infobar div.sym img {
+    display: block;
+    width: 80%;
+    margin: auto;
 
+    animation-name: flash;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .2s;
+    animation-fill-mode: both;
+}
 div.infobar div.info {
     grid-area: info;
     display: inline-block;

@@ -7,6 +7,7 @@
     --cl-background: #1E1F20;
     --cl-purple: #c6289d;
     --cl-red: #e52375;
+    --cl-orange: #ff5400;
     --cl-yellow: #ffce74;
     --cl-green: #50f0bb;
     --cl-blue: #4f87ff;
@@ -246,14 +247,7 @@ ul li:before {
 
 @keyframes flash {
     0%   { opacity: 0.0; }
-    20%  { opacity: 0.4; }
-    30%  { opacity: 0.7; }
-    40%  { opacity: 0.5; }
-    80%  { opacity: 0.5; }
-    100% { opacity: 1.0; }
-}
-
-@keyframes pulse {
-    0%   { opacity: 0.3; }
+    40%  { opacity: 0.7; }
+    60%  { opacity: 0.4; }
     100% { opacity: 1.0; }
 }

@@ -5,10 +5,13 @@ accent: var(--cl-blue)
 ---
 A **quantum drive** (**hyperspace drive**, or **hyperdrive**) is a device that allows a vehicle to
 enter and exit [hyperspace](Hyperspace.html). It is used to achieve
-[faster than light travel](Faster-than-light_travel.html). Since its widespread adoption following
+[faster-than-light travel](Faster-than-light_travel.html). Since its widespread adoption following
 the [First Exchange](First_Exchange.html) in the 200s and 300s century, it has complimented the
 older [warp drive](Warp_drive.html).
 {% include modal.html file="quantum_drive.gif" selfthumb=true %}
+
+The invention of the quantum drive and quick adoption was regarded as a pivotal cause for the
+[Solstice War](Solstice_War.html).
 
 ## Theory 
 While nominal (normal) space consists of only 3 spatial dimensions, an additional 8 can be

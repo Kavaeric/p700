@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iakan
-accent: var(--cl-green)
+accent: var(--cl-orange)
 ---
 
 {% include infobar_wip.html %}
@@ -15,7 +15,6 @@ Iakans have a distinct triangular top-down silhouette and a relatively flat body
 their lack of vertical stabiliser fins. The primary wing surfaces are located quite far behind,
 with a long neck bearing three linear sets of eyes. In plan view, their silhouette is vaguely
 reminiscent to that of a swallow.
-
 {% include modal.html file="Follow.jpg" align="right"
    caption="[Kathid](Kathid.html) with their [ranger](Ranger.html) companion, [Alaese](Alaese.html)." %}
 
@@ -47,6 +46,21 @@ Iakans possess three sets of [casimir drives](Casimir_drive.html) for propulsion
 Iakans are based on [quantum](Quantum_computer.html) hardware.
 {% include modal.html file="iakan_anatomy.jpg"
    caption="Simple anatomy diagram of an iakan V." align="center" %}
+
+## Capability
+Contrary to popular perception, the term "superiority fighter" does not describe iakans very
+appropriately, as their standard armament of twin arm-mounted railguns is only suitable against
+light armour and shields. Thusly when entering battle, an iakan must don armour and new weapons.
+{% include modal.html file="iakan_flight.jpg" caption="Iakan in a vertical ascent." %}
+
+More importantly is their ability to operate in a variety of environments and circumstances,
+including the ability to traverse space, albiet without a faster-than-light drive, thus requiring
+the use of a [drive vehicle](Drive_vehicle.html). They are also capable of travel in extreme
+temperatures, pressures, and humidities, including underwater and in a gas giant's atmosphere.
+
+Within a standard Earth atmosphere at low stratospheric altitude (approximately 25 kilometres, or
+at 25 millibars of pressure), an iakan is capable of achieving speeds in excess of 1100 m/s (over
+3960 km/h).
 
 ## Progression
 As with any synth, iakans have to be educated and taught over the span of several years after

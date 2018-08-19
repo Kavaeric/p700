@@ -39,9 +39,9 @@ Ammunition for a railgun is known as **railgun cores**, and are composed of two 
 
 * An ablative layer that will turn into plasma upon contact with the rail. The plasma will
 act as an armature connecting the rails to the projectile.
-* The actual projectile that will be delivered to the target. Special tungsten (60%) alloys are used
-to combine mass as well as conductivity. Specialist rounds using different materials are also
-commonplace, as are entirely different constructions, such as sabots.
+* The actual projectile that will be delivered to the target. Projectiles are made of alloys
+designed to conduct electricity but not heat. Specialist rounds using different materials are
+also commonplace, as are entirely different constructions, such as sabots.
 
 ### Rails
 The weapon rails are divided into two main stages. The first stage known as the **primer rail**

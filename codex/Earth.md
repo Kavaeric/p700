@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Earth
-accent: var(--cl-red)
+accent: var(--cl-green)
 ---
 {% include infobox_planet.html 
     name="Earth"
     system="Sol" 
     quarter="Terran Core Quarter"
     image="Earth.jpg"
-    caption="Earth in 717."
     catname="Sol d"
     cattime="Ancient"
     demonym="Terrene, Tellurian"
@@ -37,10 +36,10 @@ accent: var(--cl-red)
     temp="13.8"
     ktemp="287"
 
-    pop="15,476,000,000"
+    pop="15.676 billion"
     affil="[Terran Federation](Terran_Federation.html)"
     settled="Prehistoric"
-    capital="Geneva"
+    capital="[Geneva](Geneva.html)"
     largest="Lagos"
     major="Kinshasa<br>
            Mumbai<br>
@@ -60,7 +59,7 @@ densest. It has one natural satellite, [Luna](Luna.html), likely formed from a c
 with another planet early in the planet's history.
 
 Earth is the homeworld of [Terrankind](Terrankind.html), as well as the capital and most populated
-planet of [The Terran Federation](Terran_Federation.html). It is one of the three political capitals
+planet of the [Terran Federation](Terran_Federation.html). It is one of the three political capitals
 in [Juxta Sagittaria](Juxta_Sagittaria.html), after [Ko](Ko.html) and [Tal](Tal.html).
 
 ## Biosphere

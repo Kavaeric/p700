@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Antimatter
-accent: var(--cl-blue)
+accent: var(--cl-orange)
 ---
 **Antimatter** (colloquially referred to as "amat") is a material composed of antiparticles,
 particles that have the same mass as particles in normal matter but with opposite properties. Should
@@ -25,12 +25,24 @@ there is still some debate within the scientific community.
 
 ## Trawling
 {% include modal.html file="antimatter_trawling.gif" selfthumb=true %}
-The process of gathering antimatter from hyperspace is known as antimatter trawling.
+Antimatter trawling is the process of gathering antimatter from hyperspace by using strong magnetic
+fields.
 
 In order to access hyperspace, antimatter trawlers are fitted with
 [quantum drives](Quantum_drive.html) to be able to transit between it and nominal space. There,
 a trawler's magnetic field can be used to channel antimatter in for encasement. It is important to
 know that too dense an antimatter field can overwhelm a trawler's shields and magnetic field.
+
+Antimatter is an extremely popular energy source, thus antimatter trawling is an enormous business.
+Trawling organisations often organise themselves their operations by planning routes along
+hyperspace routes, with hyperspace "runs" between individual systems.
+
+As more antimatter can be collected on longer runs and journeys, a remote colony can attract
+trawlers looking for rest before making the next leg of their journey. Organisations can use their
+trawlers to deliver regular supplies to these colonies. In return, the colony can offer economical
+rates for ship servicing and hospitality for crew, forming a cooperative relationship between
+antimatter trawling organisations and remote colonies, both easing the logistics of antimatter
+trawling as well as providing business to distant worlds with otherwise little traffic.
 
 ## Encasement
 Storing antimatter is a process known as encasement, and encased antimatter is known as antimatter
@@ -46,7 +58,7 @@ carbon molecules, known as fullerenes. The negative charge of the antiproton rep
 electrons of the fullerene, preventing the two from coming into contact. This results in an
 extremely stable system that can even withstand significant impact forces.
 
-{% include modal.html file="amat_fullerene.gif" selfthumb=true align="center"
+{% include modal.html file="amat_fullerene.gif" selfthumb=true
    caption="Model of a fullerenised antiproton." %}
 
 Antiproton fuel appears as an extremely fine black powder, though the powder can be bound into
@@ -65,14 +77,3 @@ with regular matter.
 
 Positrons are much more expensive than antiproton fuel due to the increased upkeep for storage and
 transport, but also as positron fuel is much denser.
-
-## Impact of trawling
-Antimatter is one of the most popular energy sources in use today, thus antimatter trawling is an
-enormous business. Trawling organisations often organise themselves by performing trawling "runs"
-between star systems. As a result, antimatter trawling promotes colonisation of distant systems.
-
- As more antimatter can be collected on longer journeys, a remote colony can attract trawlers
- looking for rest stios before making the next leg of their journey. Organisations can use their
- trawlers to deliver regular supplies to these colonies. In return, the colony can offer economical
- rates for ship servicing and hospitality for crew, forming a cooperative relationship between
- antimatter trawling organisations and offworld colonies.

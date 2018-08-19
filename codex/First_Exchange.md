@@ -5,8 +5,8 @@ accent: var(--cl-green)
 ---
 
 The **First Exchange** was a series of communications and partnerships between
-[Terran](Terran.html) and [Ikamo](Ikamo.html) civilisations. It is generally defined as the
-period between first contact being made in 226, and first physical contact on board
+[Terran](Terran_Federation.html) and [Ikamo](Ikamo_Federation.html) civilisations. It is generally
+defined as the period between first contact being made in 226, and first physical contact on board
 [Gateway Prime](Gateway_Prime.html) in 274.
 
 ## Background
@@ -55,5 +55,5 @@ year, Terrans made first physical contact with the Ikamo aboard the ship.
 
 ## Legacy
 Peaceful contact and first exchange cemented allegience between the Ikamo and Terrans, even through
-the subsequent [Chorale War](Chorale_War.html). The two nations often work tightly together on major
-public projects, mostly scientific in nature.
+the following [Solstice War](Solstice_War.html). The two nations often work tightly together on
+major public projects, mostly scientific in nature.

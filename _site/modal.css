@@ -41,7 +41,9 @@ a[data-fancybox]:active {
 }
 
 a[data-fancybox] > img {
-    width: 100%; /* Image must be contained in parent box element */
+    max-width: 100%; /* Image must be contained in parent box element */
+    max-height: 30em;
+    margin: auto;
 }
 
 div.fancybox_container > p {
