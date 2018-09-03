@@ -35,7 +35,8 @@ mechanism allows rugged and reliable operation of the railgun mechanism, as well
 reliability issues caused by friction between rails and a solid armature.
 
 ### Core
-Ammunition for a railgun is known as **railgun cores**, and are composed of two primary layers:
+Railgun ammunition is known as **railgun cores**, although referring them to as **railgun rounds**
+is commonplace as well. They are composed of two primary layers:
 
 * An ablative layer that will turn into plasma upon contact with the rail. The plasma will
 act as an armature connecting the rails to the projectile.

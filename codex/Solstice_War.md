@@ -19,10 +19,20 @@ First contact and the following [First Exchange](First_Exchange.html) with the
 [quantum drive](Quantum_drive.html), a [faster-than-light](Faster-than-light_travel.html)
 transportation system that allowed spacecraft to travel much faster than those equipped with an
 older [warp drive](Warp_drive.html) system. The discovery of abundant [antimatter](Antimatter.html)
-in [hyperspace](Hyperspace.html) also sparked a gold rush from Terran corporations as well as the
-then-Terran government, the [Terran Union](Terran_Union.html).
+in [hyperspace](Hyperspace.html) also sparked a metaphorical gold rush from Terran corporations, backed
+by the then-Terran government, the [Terran Union](Terran_Union.html).
 
 Private corporations quickly began aggressively pushing development of hyperspace travel and
 [antimatter trawling](Antimatter.html#trawling) technologies, while simultaneously receiving
 financial incentives from the Terran Union for their continued expansion into space and development
 of antimatter trawling and quantum drive technology.
+
+Over time the Terran Union became highly dependent on trawling corporations, allowing these companies
+to expand their enterprises with little oversight. Most corporations also took advantage of the scale
+of space to operate, with many relocating their businesses off [Earth](Earth.html) or even outside
+the [Solar system](Solar_system.html) entirely, evading what little regulation was in place already.
+
+### Criticism and gradual backlash
+By the 300s the wealth gap had widened considerably; exact statistics are still unclear, with most 
+estimates placing the GINI coefficient of the Terran Union as a whole anywhere between 50% and 70%,
+with some as high as 84%.
