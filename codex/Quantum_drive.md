@@ -2,6 +2,8 @@
 layout: default
 title: Quantum drive
 accent: var(--cl-blue)
+section: Codex
+category: Technology
 ---
 A **quantum drive** (**hyperspace drive**, or **hyperdrive**) is a device that allows a vehicle to
 enter and exit [hyperspace](Hyperspace.html). It is used to achieve

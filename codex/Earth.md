@@ -2,6 +2,8 @@
 layout: default
 title: Earth
 accent: var(--cl-green)
+section: Codex
+categories: Locations
 ---
 {% include infobox_planet.html 
     name="Earth"

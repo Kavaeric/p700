@@ -39,37 +39,48 @@
     background: var(--cl-w10);
 }
 
+.navbar .button:nth-child(2) {
+    outline-color: var(--cl-red);
+}
 .navbar .button:nth-child(2):hover,
 .navbar .button:nth-child(2):focus {
     color: var(--cl-red);
-    outline-color: var(--cl-red);
 }
 .navbar .button:nth-child(2):active {
     background: var(--cl-red);
     color: var(--cl-background);
 }
+
+.navbar .button:nth-child(3) {
+    outline-color: var(--cl-blue);
+}
 .navbar .button:nth-child(3):hover,
 .navbar .button:nth-child(3):focus {
     color: var(--cl-blue);
-    outline-color: var(--cl-blue);
 }
 .navbar .button:nth-child(3):active {
     background: var(--cl-blue);
     color: var(--cl-background);
 }
+
+.navbar .button:nth-child(4) {
+    outline-color: var(--cl-green);
+}
 .navbar .button:nth-child(4):hover,
 .navbar .button:nth-child(4):focus {
     color: var(--cl-green);
-    outline-color: var(--cl-green);
 }
 .navbar .button:nth-child(4):active {
     background: var(--cl-green);
     color: var(--cl-background);
 }
+
+.navbar .button:nth-child(5) {
+    outline-color: var(--cl-purple);
+}
 .navbar .button:nth-child(5):hover,
 .navbar .button:nth-child(5):focus {
     color: var(--cl-purple);
-    outline-color: var(--cl-purple);
 }
 .navbar .button:nth-child(5):active {
     background: var(--cl-purple);
@@ -98,7 +109,7 @@
 }
 
 /* If the browser supports fancy CSS masks, we can do some equally fancy logo colourisation */
-/* Edge 17 supports mask-image and mask-size but nothing else from that spec because Edge */
+/* Edge 17 supports mask-image and mask-size but nothing else from that spec because Edge  */
 @supports (mask-position: center) or (-webkit-mask-position: center) {
     #NavLogo {
         opacity: 1;

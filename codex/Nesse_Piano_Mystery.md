@@ -2,6 +2,8 @@
 layout: default
 title: Nesse Piano Mystery
 accent: var(--cl-default)
+section: Codex
+categories: Society
 ---
 
 The **Nesse Piano Mystery** is an unsolved mystery concerning pianos with the brand name "Nesse"
@@ -15,5 +17,3 @@ been observed:
 * The pianos are of various models from the company.
 * All pianos are in relatively remote and rural locations.
 * All pianos show little sign of use, although some have aged considerably upon discovery.
-
-

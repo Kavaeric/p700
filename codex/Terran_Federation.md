@@ -2,6 +2,8 @@
 layout: default
 title: Terran Federation
 accent: var(--cl-blue)
+section: Codex
+categories: Factions
 ---
 
 {% include infobox_nation.html 

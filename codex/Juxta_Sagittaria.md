@@ -2,6 +2,8 @@
 layout: default
 title: Juxta Sagittaria
 accent: var(--cl-red)
+section: Codex
+categories: Locations
 ---
 
 **Juxta Sagittaria** (**The Orion Spur**, or **Sagittaria** for short) is a section of the

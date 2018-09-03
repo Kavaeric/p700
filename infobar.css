@@ -54,3 +54,17 @@ div.infobar div.info {
     padding: 1em 0;
     margin: auto 1em;
 }
+
+/* The infobar would be too cramped on a small screen */
+/* The width is increased, while also reducing the    */
+/* relative size of the icon/image.                   */
+@media only screen and (max-width: 640px) {
+    div.infobar {
+        width: 90%;
+        grid-template-columns: 5em auto;
+    }
+
+    div.infobar div.info {
+        margin: auto .5em;
+    }
+}

@@ -24,6 +24,18 @@
         :root {
             --cl-accent: {{ page.accent | default: "var(--cl-default)" }};
         }
+
+        {% if page.section == "Codex" %}
+            /* Highlightin' buttons! */
+            .navbar .button:nth-child(2) {
+                color: var(--cl-background);
+                background: #fff;
+            }
+            .navbar .button:nth-child(2):hover,
+            .navbar .button:nth-child(2):focus {
+                background: var(--cl-w10);
+            }
+        {% endif %}
     </style>
 </head>
 

@@ -2,6 +2,8 @@
 layout: default
 title: First Exchange
 accent: var(--cl-green)
+section: Codex
+categories: History
 ---
 
 The **First Exchange** was a series of communications and partnerships between

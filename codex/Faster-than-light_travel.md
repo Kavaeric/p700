@@ -2,6 +2,8 @@
 layout: default
 title: Faster-than-light travel
 accent: var(--cl-blue)
+section: Codex
+categories: [Science, Technology]
 ---
 **Faster-than-light travel** (abbreviated as "FTL travel") is a method of transit that allows a
 vehicle to travel faster than the universal speed limit, permitting rapid travel between long

@@ -2,6 +2,8 @@
 layout: default
 title: Antimatter
 accent: var(--cl-orange)
+section: Codex
+categories: [Science, Technology]
 ---
 **Antimatter** (colloquially referred to as "amat") is a material composed of antiparticles,
 particles that have the same mass as particles in normal matter but with opposite properties. Should

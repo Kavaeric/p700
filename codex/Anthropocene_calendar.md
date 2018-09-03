@@ -2,6 +2,8 @@
 layout: default
 title: Anthropocene calendar
 accent: var(--cl-blue)
+section: Codex
+categories: [History, Society]
 ---
 
 The **Anthropocene calendar** is the predominant calendar system used by the

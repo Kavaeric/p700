@@ -2,6 +2,8 @@
 layout: default
 title: Railgun
 accent: var(--cl-blue)
+section: Codex
+categories: Technology
 ---
 
 A **railgun** is an electromagnetic device that accelerates projectiles with electrical current

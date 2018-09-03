@@ -2,6 +2,8 @@
 layout: default
 title: Vilousian Republic
 accent: var(--cl-yellow)
+section: Codex
+categories: Factions
 ---
 
 {% include infobar_wip.html %}

@@ -2,6 +2,8 @@
 layout: default
 title: Hyperspace
 accent: var(--cl-blue)
+section: Codex
+categories: Science
 ---
 **Hyperspace** (or **superdimensional space**) refers to a parallel plane of existence alongside
 nominal three-dimensional space, but with eleven spatial dimensions instead.

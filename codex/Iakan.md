@@ -2,6 +2,8 @@
 layout: default
 title: Iakan
 accent: var(--cl-orange)
+section: Codex
+categories: [Species, Technology]
 ---
 
 {% include infobar_wip.html %}
@@ -67,7 +69,7 @@ As with any synth, iakans have to be educated and taught over the span of severa
 fabrication. Iakans in particular progress through six stages of development during maturity,
 numbered 0 through V.
 {% include modal.html file="iakan_stages.jpg"
-   caption="Iakan II and iakan V. Note the training engines on the iakan II." %}
+   caption="Iakan II and iakan." %}
 
 * **Iakan 0**: Initial stage, iakan 0s have negligible thrust ability, no wings, nor armament. Primary education is taught, such as culture, sciences, and anatomy. Later, foundational subjects on flight are taught.
 * **Iakan I**: Glider stage, iakan Is are given straight training wings, a training tailfin, and some thrust capability, though not enough to achieve powered flight on their own. Instead, their primary thrusters are only able to accelerate them for brief beriods of time. Basics of flight are taught at this point.
@@ -75,10 +77,12 @@ numbered 0 through V.
 * **Iakan III**: The training tailfin is removed from iakan IIIs and replaced with the final tail nocks. Some more advanced manoeuvres are taught at this stange, including hovering.
 * **Iakan IV**: Training wings are removed from iakan IVs. In some cases, simulated railguns are added. All other flight skills are taught at this stage, including operation in extreme environments.
 * **Iakan V**: All limitations removed, full flight power and weapons capability if any.
-{% include modal.html file="iakan_night.jpg" align="right"
-   caption="A pair of iakans travelling at night, with primary drives active." %}
+
+Pre-stage V iakans are often affectionately referred to as "ike tykes" by those raising them.
 
 ## Occupations
+{% include modal.html file="iakan_night.jpg" align="right"
+   caption="A pair of iakans travelling at night, with primary drives active." %}
 A common misconception is that iakans are military-focused aerosynths; While military enlistment is
 common for many iakans, this is not legally compulsory nor prescribed on iakans from their anatomy.
 
