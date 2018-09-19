@@ -1,13 +1,13 @@
 /* infobar.css */
 
 div.infobar {
-    width: 35em;
+    width: 90%;
     margin: .5em auto;
     border-bottom: 2px solid var(--cl-w20);
 
     display: grid;
     grid-template-rows: 2em auto;
-    grid-template-columns: 7em auto;
+    grid-template-columns: 5em auto;
     grid-template-areas:
         "header header"
         "sym info";
@@ -52,19 +52,19 @@ div.infobar div.info {
     grid-area: info;
     display: inline-block;
     padding: 1em 0;
-    margin: auto 1em;
+    margin: auto .5em;
 }
 
 /* The infobar would be too cramped on a small screen */
-/* The width is increased, while also reducing the    */
-/* relative size of the icon/image.                   */
-@media only screen and (max-width: 640px) {
+/* On larger screens though, the image can be made    */
+/* larger, and the bar given more breathing room      */
+@media only screen and (min-width: 640px) {
     div.infobar {
-        width: 90%;
-        grid-template-columns: 5em auto;
+        width: 35em;
+        grid-template-columns: 7em auto;
     }
 
     div.infobar div.info {
-        margin: auto .5em;
+        margin: auto 1em;
     }
 }

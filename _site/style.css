@@ -55,24 +55,24 @@ body {
 
     font-family: HKGrotesk, sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 14px;
     color: #fff;
 
     background: var(--cl-background);
 }
-@media only screen and (max-width: 1280px) {
-    body {
-        font-size: 18px;
-    }
-}
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 640px) {
     body {
         font-size: 16px;
     }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 960px) {
     body {
-        font-size: 14px;
+        font-size: 18px
+    };
+}
+@media only screen and (min-width: 1280px) {
+    body {
+        font-size: 20px;
     }
 }
 
@@ -112,18 +112,19 @@ h1 {
     border-bottom: 2px solid var(--cl-accent);
     padding-bottom: .1em;
 
-    font-size: 4em;
+    font-size: 2.5em;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 640px) {
     h1 {
         font-size: 3.2em;
     }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 960px) {
     h1 {
-        font-size: 2.5em;
+        font-size: 4em;
     }
 }
+
 
 h2 {
     display: inline-block;
@@ -217,22 +218,22 @@ ul li:before {
     grid-area: "bracket-top";
     margin: 1em auto 0 auto;
 
-    border-width: .1em .4em .4em .4em; /* Varying the borders like this renders really neat */
+    border-width: .1em .2em .2em .2em;  /* Varying the borders like this renders really neat */
     border-color: var(--cl-w20) #fff transparent #fff;
 }
 .contentBracketBottom {
     grid-area: "bracket-bottom";
     margin: 1em auto 0 auto;
 
-    border-width: .4em .4em .1em .4em;
+    border-width: .2em .2em .1em .2em;
     border-color: transparent #fff var(--cl-w20) #fff;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (min-width: 640px) {
     .contentBracketTop {
-        border-width: .1em .2em .2em .2em;
+        border-width: .1em .4em .4em .4em;
     }
     .contentBracketBottom {
-        border-width: .2em .2em .1em .2em;
+        border-width: .4em .4em .1em .4em;
     }
 }
 
