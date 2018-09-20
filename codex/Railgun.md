@@ -5,7 +5,6 @@ accent: var(--cl-blue)
 section: Codex
 categories: Technology
 ---
-
 A **railgun** is an electromagnetic device that accelerates projectiles with electrical current
 induced by two conducting rails. While finding many applications, the term is often used to refer
 exclusively the weaponised variety.

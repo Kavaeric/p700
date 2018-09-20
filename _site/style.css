@@ -5,11 +5,11 @@
     --cl-default: #ff5400;
 
     --cl-background: #1E1F20;
-    --cl-purple: #c6289d;
-    --cl-red: #e52375;
+    --cl-purple: #ff19c2;
+    --cl-red: #ff2051;
     --cl-orange: #ff5400;
     --cl-yellow: #ffce74;
-    --cl-green: #50f0bb;
+    --cl-green: #4effc4;
     --cl-blue: #4f87ff;
 
     --cl-w5:  rgba(255, 255, 255, .05);
@@ -21,32 +21,22 @@
 /* Getting some fonts in */
 @font-face {
     font-family: HKGrotesk;
-    src: url(fonts/HKGroteskPro-Thin.woff);
-    font-weight: 200;
-}
-@font-face {
-    font-family: HKGrotesk;
-    src: url(fonts/HKGroteskPro-Light.woff);
+    src: url(/fonts/HKGroteskPro-Light.woff);
     font-weight: 300;
 }
 @font-face {
     font-family: HKGrotesk;
-    src: url(fonts/HKGroteskPro-Regular.woff);
+    src: url(/fonts/HKGroteskPro-Regular.woff);
     font-weight: 400;
 }
 @font-face {
     font-family: HKGrotesk;
-    src: url(fonts/HKGroteskPro-Medium.woff);
+    src: url(/fonts/HKGroteskPro-Medium.woff);
     font-weight: 500;
 }
 @font-face {
-    font-family: HKGrotesk;
-    src: url(fonts/HKGroteskPro-SemiBold.woff);
-    font-weight: 600;
-}
-@font-face {
     font-family: HKCarta;
-    src: url(fonts/HKCarta-Medium.woff);
+    src: url(/fonts/HKCarta-Medium.woff);
 }
 
 body {
@@ -162,6 +152,7 @@ sup {
     font-size: .6em;
 }
 
+/* Custom serif tag */
 sr {
     font-family: HKCarta, serif;
 }
