@@ -169,7 +169,7 @@ ul li {
     text-indent: -1em;
 }
 ul li:before {
-    content: "▸";
+    content: "\25B8";
     padding-right: 5px;
     color: var(--cl-w50);
 }
