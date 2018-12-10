@@ -21,22 +21,22 @@
 /* Getting some fonts in */
 @font-face {
     font-family: HKGrotesk;
-    src: url(/fonts/HKGroteskPro-Light.woff);
+    src: url(fonts/HKGroteskPro-Light.woff);
     font-weight: 300;
 }
 @font-face {
     font-family: HKGrotesk;
-    src: url(/fonts/HKGroteskPro-Regular.woff);
+    src: url(fonts/HKGroteskPro-Regular.woff);
     font-weight: 400;
 }
 @font-face {
     font-family: HKGrotesk;
-    src: url(/fonts/HKGroteskPro-Medium.woff);
+    src: url(fonts/HKGroteskPro-Medium.woff);
     font-weight: 500;
 }
 @font-face {
     font-family: HKCarta;
-    src: url(/fonts/HKCarta-Medium.woff);
+    src: url(fonts/HKCarta-Medium.woff);
 }
 
 body {
@@ -169,7 +169,7 @@ ul li {
     text-indent: -1em;
 }
 ul li:before {
-    content: "▸";
+    content: "\25B8";
     padding-right: 5px;
     color: var(--cl-w50);
 }
