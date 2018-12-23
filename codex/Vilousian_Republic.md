@@ -25,7 +25,7 @@ categories: Factions
             < 0.1% [terran](Terran_(species).html), [ikamo](Ikamo_(species).html)"
 
     gov="Parliamentary confederation"
-    formation="12E 694"
+    formation="12M 694"
     
     currency="[&#8372; Gold Ring Cevia](Gold_Ring_Cevia.html)"
     gdp="~&#8372;1.07 quadrillion <br>
@@ -35,7 +35,7 @@ categories: Factions
     %}
 
 The **Imperial Republic of Vilous** (commonly referred to as the
-**Vilousian Republic** or **Vilous Republic**) is a confederation founded in 12E 694 by the
+**Vilousian Republic** or **Vilous Republic**) is a confederation founded in 12M 694 by the
 Vilousian nations [Shigu Kingdom](Shigu_Kingdom.html) and the
 [Ring Collective](Ring_Collective.html). The nation occupies a region in forthward
 [Juxta Sagittaria](Juxta_Sagittaria), sharing a loose border with the

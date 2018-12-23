@@ -7,7 +7,7 @@
     --cl-background: #1E1F20;
     --cl-purple: #ff19c2;
     --cl-red: #ff2051;
-    --cl-orange: #ff5400;
+    --cl-orange: #ff7066;
     --cl-yellow: #ffce74;
     --cl-green: #4effc4;
     --cl-blue: #4f87ff;
@@ -155,6 +155,18 @@ sup {
 /* Custom serif tag */
 sr {
     font-family: HKCarta, serif;
+}
+
+blockquote {
+    margin-left: 1em;
+    padding: .5em 1em;
+    border-left: 2px solid var(--cl-accent);
+
+    background-color: var(--cl-w5);
+}
+
+blockquote > p {
+    margin: .5em 0;
 }
 
 /* Custom bullet styling */

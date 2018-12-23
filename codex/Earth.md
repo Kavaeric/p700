@@ -15,14 +15,14 @@ categories: Locations
     demonym="Terrene, Tellurian"
 
     dist="149,598,000" 
-    reldist="1.0"
+    reldist="1.00"
     year="365.26"
     ecc="0.0167"
     sidereal="23h 56m 4s"
     synodic="24h"
 
     mass="5.972 &#215; 10<sup>24</sup>"
-    relmass="1.0" 
+    relmass="1.00" 
     radius="6,371" 
     relradius="1.0"
     grav="9.81"

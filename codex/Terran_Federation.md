@@ -23,7 +23,7 @@ categories: Factions
     gov="Federal parliamentary republic"
     exec="[Office of the Executors](Office_of_the_Executors.html)"
     legis="[Sagittaria Parliament](Sagittaria_Parliament.html)"
-    formation="12E 507"
+    formation="12M 507"
     
     currency="[&#8376; Geneva Taler](Geneva_Taler.html)"
     gdp="~&#8376;204 quadrillion"
@@ -55,7 +55,7 @@ the term is now used in reference to the Terran state.
 
 A common misstep, much with the terms "Ikamo" and "Vilousian", is forgoing the distinction between
 the term "Terran" (proper noun, capitalised) and "terran" (common noun). The former used to refer to
-the political entity of the Terran Federation whereas the latter referring to the descendent species
+the political entity of the Terran Federation whereas the latter referring to the descendant species
 of Earth. For example, a [sergal](Sergal.html) with Terran Federation citizenship may describe
 themselves as a "Terran vilousian".
 
@@ -74,8 +74,7 @@ between [North American](North_America.html) and various European states.
 
 Following the [Summer War](Summer_War.html), the UN was dissolved due to its implication for the
 [Terran Drought of 119](Terran_Drought_of_119.html) as well as general mismanagement of responding
-to [Terran climate change](Terran_climate_change_of_12E.html), and was replaced with the
-[Terran Union](Terran_Union.html).
+to [Terran climate change](Terran_climate_change.html), and was replaced with the [Terran Union](Terran_Union.html).
 
 The introduction of the [Quantum drive](Quantum_drive.html) after the
 [First Exchage](First_Exchange.html) led to massive expansion of the Terran Union, spearheaded
@@ -87,7 +86,7 @@ little control or recognition, the Terran Union dissolved.
 War ended in 507 with the signing of [Terran Accord](Terran_Accord.html). Shortly thereafter, the
 modern Terran Federation was founded with its capital based in Geneva.
 
-In 663, Terran surveyers first observed [Vilousian civilisation](Vilousian_Republic.html) on
+In 663, Terran surveyors first observed [Vilousian civilisation](Vilousian_Republic.html) on
 [Tal](Tal.html). After [second contact](Vilousian_contact.html) in 689, the Terran Federation
 assisted with the integration of Vilousian society with the wider galaxy.
 

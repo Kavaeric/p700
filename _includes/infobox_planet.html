@@ -10,6 +10,8 @@
                 <a href="{{ include.system }}.html">{{ include.system | default: "???" }}</a> &#9656; 
                 <a href="{{ include.quarter }}.html">{{ include.quarter | default: "???" }}</a></td>
         </tr>
+
+        {% if include.image != null %}
         <tr>
             <td colspan="2">
                 <a data-fancybox="gallery" href="media/{{include.image}}">
@@ -18,6 +20,7 @@
                 </a>
             </td>
         </tr>
+        {% endif %}
     </thead>
 
     <tbody>
@@ -119,18 +122,27 @@
             <td class="infoname">Settled</td>
             <td>{{ include.settled }}</td>
         </tr>
+
+        {% if include.capital != null %}
         <tr>
             <td class="infoname">Political capital</td>
             <td>{{ include.capital | markdownify | remove: '<p>' | remove: '</p>' }}</td>
         </tr>
+        {% endif %}
+
+        {% if include.largest != null %}
         <tr>
             <td class="infoname">Largest settlement</td>
             <td>{{ include.largest | markdownify | remove: '<p>' | remove: '</p>' }}</td>
         </tr>
+        {% endif %}
+
+        {% if include.major != null %}
         <tr>
             <td class="infoname">Major settlements</td>
             <td>{{ include.major | markdownify | remove: '<p>' | remove: '</p>' }}</td>
         </tr>
+        {% endif %}
     </tbody>
 </table>
 </div>
