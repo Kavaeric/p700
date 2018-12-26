@@ -55,7 +55,7 @@ categories: Locations
            Rio de Janeiro"
     %}
 
-**Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G5V star [Sol](Sol.html).
+**Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G2V star [Sol](Sol.html).
 It is the fifth largest planet body in the [Solar system](Solar_system.html), as well as the
 densest. It has one natural satellite, [Luna](Luna.html), likely formed from a cataclysmic impact
 with another planet early in the planet's history.

@@ -57,10 +57,13 @@
             <td class="infoname">Sidereal day</td>
             <td>{{ include.sidereal }}</td>
         </tr>
+
+        {% if include.synodic != null %}
         <tr>
             <td class="infoname">Synodic day</td>
             <td>{{ include.synodic }}</td>
         </tr>
+        {% endif %}
 
         <tr><th colspan="2">Physical characteristics</th></tr>
         <tr>
