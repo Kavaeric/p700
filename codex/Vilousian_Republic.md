@@ -16,7 +16,7 @@ categories: Factions
     motto="Quar equaī qa'naumel<br>
            We progress together"
     demonym="Vilousian"
-    capital="[Gold Ring](Gold Ring.html), [Tal](Tal.html), [Vilous](Vilous.html)<br>
+    capital="[Gold Ring](Gold_Ring.html), [Tal](Tal.html), [Vilous](Vilous.html)<br>
              [Fort Lon Sodd](Fort_Lon_Sodd.html) (Former)"
     lang="[Khuyi-Sekir](Sekir.html)"
 

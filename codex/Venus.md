@@ -5,20 +5,20 @@ accent: var(--cl-yellow)
 section: Codex
 categories: Locations
 ---
-{% include infobox_planet.html 
+{% include infobox_planet.html
     name="Venus"
-    system="Sol" 
+    system="Sol"
     quarter="Terran Core Quarter"
     catname="Sol c"
     cattime="Ancient"
     demonym="Venusian, Venerean"
 
-    dist="108 208 000" 
+    dist="108 208 000"
     reldist="0.72"
     year="224.70"
     ecc="0.0068"
     sidereal="-243.03d"
-    synodic="-116.75"
+    synodic="-116.75d"
 
     mass="4.868 &#215; 10<sup>24</sup>"
     relmass="0.82" 
@@ -36,7 +36,7 @@ categories: Locations
     temp="467"
     ktemp="742"
 
-    pop="54.483 million"
+    pop="340.483 million"
     affil="[Terran Federation](Terran_Federation.html)"
     settled="12M 050"
     capital="Vesper"

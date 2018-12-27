@@ -7,7 +7,7 @@ categories: Locations
 ---
 
 {% include infobox_star.html 
-    name="Sol a"
+    name="Sol"
     quarter="Terran Core Quarter"
     catname="Sol a"
     cattime="Ancient"

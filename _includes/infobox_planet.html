@@ -7,8 +7,13 @@
         <tr>
             <td colspan="2" class="subtitle">
                 {{ include.name | default: "???" }} &#9656; 
-                <a href="{{ include.system }}.html">{{ include.system | default: "???" }}</a> &#9656; 
-                <a href="{{ include.quarter }}.html">{{ include.quarter | default: "???" }}</a></td>
+                {% if include.parent != null %}
+                <a href="{{ include.parent | replace: ' ', '_'}}.html">{{ include.parent | default: "???" }}</a> &#9656;
+                {% endif %} 
+                <a href="{{ include.system | replace: ' ', '_' }}.html">{{ include.system | default: "???" }}</a>
+                {% if include.quarter != null %} &#9656;
+                <a href="{{ include.quarter | replace: ' ', '_' }}.html">{{ include.quarter | default: "???" }}</a></td>
+                {% endif %}
         </tr>
 
         {% if include.image != null %}
@@ -37,6 +42,7 @@
             <td>{{ include.demonym }}</td>
         </tr>
 
+        {% if reldist != null %}
         <tr><th colspan="2">Orbital characteristics</th></tr>
         <tr>
             <td class="infoname" rowspan="2">Semimajor axis</td>
@@ -45,6 +51,14 @@
         <tr>
             <td>{{ include.reldist }} AU</td>
         </tr>
+        {% else %}
+        <tr><th colspan="2">Orbital characteristics</th></tr>
+        <tr>
+            <td class="infoname">Semimajor axis</td>
+            <td>{{ include.dist }} km</td>
+        </tr>
+        {% endif %}
+
         <tr>
             <td class="infoname">Orbital period</td>
             <td>{{ include.year }} days</td>
@@ -87,12 +101,14 @@
         <tr>
             <td>{{ include.relgrav }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
         </tr>
-        <tr>
-            <td class="infoname">Age</td>
-            <td>{{ include.age }}</td>
-        </tr>
 
-        <tr><th colspan="2">Atmospheric</th></tr>
+        <tr><th colspan="2">Climate</th></tr>
+        {% if include.pressure == "0" %}
+        <tr>
+            <td class="infoname">Surface pressure</td>
+            <td>Trace</td>
+        </tr>
+        {% else %}
         <tr>
             <td class="infoname" rowspan="2">Surface pressure</td>
             <td>{{ include.pressure }} kPa</td>
@@ -100,10 +116,16 @@
         <tr>
             <td>{{ include.relpressure }} Atm<a href="Earth.html"><sub>&#8853;</sub></a></td>
         </tr>
+        {% endif %}
+
+        {% if include.composition != null %}
         <tr>
             <td class="infoname">Composition</td>
             <td>{{ include.composition | markdownify | remove: '<p>' | remove: '</p>' }}</td>
         </tr>
+        {% endif %}
+
+        {% if include.temp != null %}
         <tr>
             <td class="infoname" rowspan="2">Median temperature</td>
             <td>{{ include.temp }} &deg;C</td>
@@ -111,6 +133,33 @@
         <tr>
             <td>{{ include.ktemp }} K</td>
         </tr>
+        {% elsif include.kmeantemp != null %}
+            {% if include.khightemp != null %}
+            <tr>
+                <td class="infoname" rowspan="2">High temperature</td>
+                <td>{{ include.khightemp | minus: 273.15 | round }} &deg;C</td>
+            </tr>
+            <tr>
+                <td>{{ include.khightemp }} K</td>
+            </tr>
+            {% endif %}
+        <tr>
+            <td class="infoname" rowspan="2">Mean temperature</td>
+            <td>{{ include.kmeantemp | minus: 273.15 | round }} &deg;C</td>
+        </tr>
+        <tr>
+            <td>{{ include.kmeantemp }} K</td>
+        </tr>
+            {% if include.klowtemp != null %}
+            <tr>
+                <td class="infoname" rowspan="2">Low temperature</td>
+                <td>{{ include.klowtemp | minus: 273.15 | round }} &deg;C</td>
+            </tr>
+            <tr>
+                <td>{{ include.klowtemp }} K</td>
+            </tr>
+            {% endif %}
+        {% endif %}
 
         <tr><th colspan="2">Habitation</th></tr>
         <tr>

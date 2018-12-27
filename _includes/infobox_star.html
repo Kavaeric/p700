@@ -7,7 +7,7 @@
         <tr>
             <td colspan="2" class="subtitle">   
                 {{ include.name | default: "???" }} &#9656; 
-                <a href="{{ include.quarter }}.html">{{ include.quarter | default: "???" }}</a></td>
+                <a href="{{ include.quarter | replace: ' ', '_' }}.html">{{ include.quarter | default: "???" }}</a></td>
         </tr>
 
         {% if include.image != null %}

@@ -9,8 +9,10 @@
     --cl-red: #ff2051;
     --cl-orange: #ff7066;
     --cl-yellow: #ffce74;
+    --cl-yellowlight: #f5e7ba;
     --cl-green: #4effc4;
     --cl-blue: #4f87ff;
+    --cl-bluegrey: #9dadd1;
 
     --cl-w5:  rgba(255, 255, 255, .05);
     --cl-w10: rgba(255, 255, 255, .1);

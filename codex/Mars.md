@@ -37,7 +37,7 @@ categories: Locations
     temp="-65"
     ktemp="208"
 
-    pop="2.103 million"
+    pop="21.030 million"
     affil="[Terran Federation](Terran_Federation.html)"
     settled="12M 038"
     capital="Trinity"

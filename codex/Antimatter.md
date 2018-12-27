@@ -30,10 +30,10 @@ there is still some debate within the scientific community.
 Antimatter trawling is the process of gathering antimatter from hyperspace by using strong magnetic
 fields.
 
-In order to access hyperspace, antimatter trawlers are fitted with
-[quantum drives](Quantum_drive.html) to be able to transit between it and nominal space. There,
-a trawler's magnetic field can be used to channel antimatter in for encasement. It is important to
-know that too dense an antimatter field can overwhelm a trawler's shields and magnetic field.
+In order to access hyperspace, antimatter trawlers are fitted with [quantum drives](Quantum_drive.html)
+to be able to transit between it and nominal space. There, a trawler's magnetic field can be used to
+channel antimatter in for encasement. It is important to know that too dense an antimatter field can
+overwhelm a trawler's shields and magnetic field.
 
 Antimatter is an extremely popular energy source, thus antimatter trawling is an enormous business.
 Trawling organisations often organise themselves their operations by planning routes along
@@ -78,4 +78,4 @@ fullerenisation, however requires a constant power supply, else the antimatter w
 with regular matter.
 
 Positrons are much more expensive than antiproton fuel due to the increased upkeep for storage and
-transport, but also as positron fuel is much denser.
+transport, but also as positron fuel is much more energy dense.

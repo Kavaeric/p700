@@ -1,27 +1,33 @@
 /* infobox.css */
 
 .infobox {
-    width: 20%;
+    width: 100%;
     float: none;
-    margin: 2em auto;
+    margin: 1em auto;
 
     border-style: solid;
     border-color: var(--cl-w20) transparent; /* Borders on top and bottom only, but keep bevels */
-    border-width: 2px;
+    border-width: 3px;
 }
+.infobox table {
+    width: 100%;
+    margin: .5em auto; /* Some spacing between the table content and the styled top and bottom */
+    border-collapse: collapse;
+}
+
 @media only screen and (min-width: 760px) {
     .infobox {
         width: 20em;
         float: right;
-        margin: 0 0 2em 2em;
+        margin: 0 0 1em 2em;
+    }
+
+    .infobox table {
+        width: 90%;
     }
 }
 
-.infobox table {
-    width: 90%;
-    margin: .2em auto; /* Some spacing between the table content and the styled top and bottom */
-    border-collapse: collapse;
-}
+
 
 .infobox td,
 .infobox th {
