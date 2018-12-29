@@ -5,7 +5,7 @@ accent: var(--cl-green)
 section: Codex
 categories: Locations
 ---
-{% include infobox_planet.html 
+{% include infobox_planet.html
     name="Earth"
     system="Sol" 
     quarter="Terran Core Quarter"
@@ -39,9 +39,9 @@ categories: Locations
     ktemp="287"
 
     pop="15.676 billion"
-    affil="[Terran Federation](Terran_Federation.html)"
+    affil="[Terran Federation](Terran_Federation)"
     settled="Prehistoric"
-    capital="[Geneva](Geneva.html)"
+    capital="[Geneva](Geneva)"
     largest="Lagos"
     major="Kinshasa<br>
            Mumbai<br>
@@ -55,14 +55,14 @@ categories: Locations
            Rio de Janeiro"
     %}
 
-**Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G2V star [Sol](Sol.html).
-It is the fifth largest planet body in the [Solar system](Solar_system.html), as well as the
-densest. It has one natural satellite, [Luna](Luna.html), likely formed from a cataclysmic impact
+**Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G2V star [Sol](Sol).
+It is the fifth largest planet body in the [Solar system](Solar_system), as well as the
+densest. It has one natural satellite, [Luna](Luna), likely formed from a cataclysmic impact
 with another planet early in the planet's history.
 
-Earth is the homeworld of [Terrankind](Terrankind.html), as well as the capital and most populated
-planet of the [Terran Federation](Terran_Federation.html). It is one of the three political capitals
-in [Juxta Sagittaria](Juxta_Sagittaria.html), after [Ko](Ko.html) and [Tal](Tal.html).
+Earth is the homeworld of [Terrankind](Terrankind), as well as the capital and most populated
+planet of the [Terran Federation](Terran_Federation). It is one of the three political capitals
+in [Juxta Sagittaria](Juxta_Sagittaria), after [Ko](Ko) and [Tal](Tal).
 
 ## Biosphere
 Life on Earth emerged some 3.8 billion years ago as single-cell life, but multicellular life is
@@ -114,10 +114,14 @@ layer proetects the surface of the Earth from otherwise harmful ultraviolet radi
 is hazardous to most multicellular carbon life if inhaled, the layer is too high to warrant any real
 hazard.
 
-## Habitation
-[Terran](Terran.html) civilisation first formed on Earth and is mostly saturated in areas with
+## Society
+[Terran](Terran) civilisation first formed on Earth and is mostly saturated in areas with
 milder climates, though advances in technology allowed many to live in harsher conditions on the
 planet.
+
+With its tremendous population and capital status, Earth is to be considered no less than one of the
+most diverse worlds in Juxta Sagittaria. Its relative proximity to [Ikamo](Ikamo_Federation) space
+has also granted it a considerable non-terran population as well.
 
 As of 2717 the planet's population was was estimated at approximately 15.5 billion inhabitants, and
 is expected to remain mostly stable.
@@ -153,5 +157,5 @@ coastlines.
 
 ### Extraplanetary
 In the scope of space, Earth's system harbours a considerably near
-[asteroid field](Solar_Asteroid_Belt.html), although impacts are mitigated from its unusually large
-moon and the gas giant [Jupiter](Jupiter.html). 
+[asteroid field](Solar_Asteroid_Belt), although impacts are mitigated from its unusually large
+moon and the gas giant [Jupiter](Jupiter). 

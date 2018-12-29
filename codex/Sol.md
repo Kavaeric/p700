@@ -25,15 +25,15 @@ categories: Locations
     age="4.45 Gy"
     
     pop="~15.6 billion"
-    affil="[Terran Federation](Terran_Federation.html)"
+    affil="[Terran Federation](Terran_Federation)"
     settled="Prehistoric"
 %}
 
 **Sol** is a main-sequence yellow star of spectral class G2V, and is the most populated star system
-in all of [Juxta Sagittaria](Juxta_Sagittaria.html). Sol is believed to be approximately 4.5 billion
+in all of [Juxta Sagittaria](Juxta_Sagittaria). Sol is believed to be approximately 4.5 billion
 years old.
 
-Sol is orbited by [Earth](Earth.html), the capital and homeworld of the [Terran Federation](Terran_Federation.html).
+Sol is orbited by [Earth](Earth), the capital and homeworld of the [Terran Federation](Terran_Federation).
 Terrans have a consistent presence throughout the Sol system due to the abundance of lucrative mining
 sites across Sol's various planets, moons, and asteroids.
 
@@ -48,20 +48,20 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     %}
     {% include system_object.html 
         name="Mercury"
-        article="Mercury.html"
+        article="Mercury"
         type="body"
         diameter="1"
     %}
     {% include system_object.html 
         name="Venus"
-        article="Venus.html"
+        article="Venus"
         type="body"
         diameter="1.3"
     %}
     {% capture luna %}{% include system_moon.html name='Luna' article='Luna.html' diameter='.75' %}{% endcapture %}
     {% include system_object.html 
         name="Earth"
-        article="Earth.html"
+        article="Earth"
         type="body"
         diameter="1.5"
         moons=luna
@@ -72,7 +72,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% endcapture %}
     {% include system_object.html 
         name="Mars"
-        article="Mars.html"
+        article="Mars"
         type="body"
         diameter="1.1"
         moons=marsmoons
@@ -81,7 +81,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% capture asteroids %}
     {% include system_moon.html name='Ceres' diameter='.5' %}
     {% endcapture %}
-    {% include system_object.html 
+    {% include system_object.html
         name="Asteroid belt"
         article="Solar_asteroid_belt.html"
         type="belt"
@@ -96,7 +96,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% endcapture %}
     {% include system_object.html 
         name="Jupiter"
-        article="Jupiter.html"
+        article="Jupiter"
         type="body"
         diameter="3.5"
         moons=jupitermoons
@@ -106,7 +106,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% endcapture %}
     {% include system_object.html 
         name="Saturn"
-        article="Saturn.html"
+        article="Saturn"
         type="body"
         diameter="3"
         axis="27"
@@ -122,7 +122,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% endcapture %}
     {% include system_object.html 
         name="Uranus"
-        article="Uranus.html"
+        article="Uranus"
         type="body"
         diameter="2.5"
         axis="98"
@@ -134,7 +134,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     {% endcapture %}
     {% include system_object.html 
         name="Neptune"
-        article="Neptune.html"
+        article="Neptune"
         type="body"
         diameter="2.4"
         moons=neptunemoons

@@ -5,7 +5,7 @@ accent: var(--cl-orange)
 section: Codex
 categories: Locations
 ---
-{% include infobox_planet.html 
+{% include infobox_planet.html
     name="Mars"
     system="Sol" 
     quarter="Terran Core Quarter"
@@ -38,21 +38,21 @@ categories: Locations
     ktemp="208"
 
     pop="21.030 million"
-    affil="[Terran Federation](Terran_Federation.html)"
+    affil="[Terran Federation](Terran_Federation)"
     settled="12M 038"
     capital="Trinity"
     %}
 
-**Mars** (**Sol e**, or **Sol-IV**) is the fourth planet from the type-G5V star [Sol](Sol.html).
-It is the outermost terrestrial planet in the [Solar system](Solar_system.html), as well as being
-the second-smallest planet in the system, behind [Mercury](Mercury.html). Mars has two natural
-satellites, Phobos and Deimos, likely captured from the neighbouring [asteroid belt](Solar_asteroid_belt.html).
+**Mars** (**Sol e**, or **Sol-IV**) is the fourth planet from the type-G5V star [Sol](Sol).
+It is the outermost terrestrial planet in the [Solar system](Solar_system), as well as being
+the second-smallest planet in the system, behind [Mercury](Mercury). Mars has two natural
+satellites, Phobos and Deimos, likely captured from the neighbouring [asteroid belt](Solar_asteroid_belt).
 
-Mars was a popular topic in pre-interstellar [Terran](Terran_Federation.html) culture as well as a
+Mars was a popular topic in pre-interstellar [Terran](Terran_Federation) culture as well as a
 prospective destination for colonisation efforts, with proposals to terraform the planet not uncommon.
-The invention of [faster-than-light travel](Faster-than-light_travel.html), however, afforded Terrans
+The invention of [faster-than-light travel](Faster-than-light_travel), however, afforded Terrans
 the ability to almost pick and choose destinations to explore and settle. With its primary attraction,
-its proximity to [Earth](Earth.html), rendered moot, Mars ultimately faded from prominence, with little
+its proximity to [Earth](Earth), rendered moot, Mars ultimately faded from prominence, with little
 reason to visit.
 
 Mars maintains a sparse, highly decentralised population. Abandoned structures of early colonisation
@@ -61,7 +61,7 @@ designed to assist with the terraforming of Mars.
 
 ## History
 Terrans colonised Mars long before the advent of interstellar travel. Due to its relative proximity
-to Earth as well as its ease of habitation - especially when compared to planets such as [Venus](Venus.html) - 
+to Earth as well as its ease of habitation - especially when compared to planets such as [Venus](Venus) - 
 Mars gained prominence as a major Terran colonisation destination during the 000s century. The Martian
 population peaked in 142, at about 35 million inhabitants. During this time, terraforming infrastructure
 was constructed en masse on Mars, with the hopes that the planet could be turned into an Earth-like
@@ -71,7 +71,7 @@ With faster-than-light technology widespread by the mid-late 100s century, howev
 declined as much more lucrative, habitable worlds were made accessible, and as such the prospect
 of terraforming Mars became a moot point with more readily livable worlds elsewhere.
 
-The [Solstice War](Solstice_War.html) likely secured the fate of the declining Martian population, as
+The [Solstice War](Solstice_War) likely secured the fate of the declining Martian population, as
 numerous pro-capitalist factions and corporations were based on Mars. Most were expelled or outright
 eliminated during the closing years of the war.
 
@@ -89,7 +89,7 @@ pressure at an altitude of about 19 kilometres above sea level.
 The Martian atmosphere is mainly composed of carbon dioxide, with small amounts of nitrogen and
 argon. Oxygen makes up about 0.15% of the atmosphere.
 
-Dust storms are a regular occurrance on Mars, mostly happening when Mars is at its closest to Sol
+Dust storms are a regular occurrence on Mars, mostly happening when Mars is at its closest to Sol
 in its orbit. These storms can be global, blanketing the entire planet in thick dust and obscuring
 sunlight to its surface. It is important to note that, although speeds of up to 100km/h can be
 achieved by these storms, the thin Martian atmosphere negates much of the intensity of the wind. 

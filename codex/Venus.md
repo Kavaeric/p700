@@ -37,18 +37,18 @@ categories: Locations
     ktemp="742"
 
     pop="340.483 million"
-    affil="[Terran Federation](Terran_Federation.html)"
+    affil="[Terran Federation](Terran_Federation)"
     settled="12M 050"
     capital="Vesper"
     %}
 
-**Venus** (**Sol c**, or **Sol-II**) is the second planet from [Sol](Sol.html), a neighbour
-planet to [Earth](Earth.html), and an economically important world in the [Terran Federation](Terran_Federation.html).
+**Venus** (**Sol c**, or **Sol-II**) is the second planet from [Sol](Sol), a neighbour planet to
+[Earth](Earth), and an economically important world in the [Terran Federation](Terran_Federation).
 
 Venus is sometimes colloquially referred to as "Earth's twin" based on its similar mass and radius,
 however, its crushing pressures, acidic atmosphere, and hostile surface heat prohibit any sort of
 surface exploration. Hence, any habitation of Venus is made in the atmosphere, typically on board
-[aerostat habitats](Aerostat_habitat.html) or on space stations.
+[aerostat habitats](Aerostat_habitat) or on space stations.
 
 ## Geography
 Venus' surface is a near-homogeneous desert landscape, with near-continuous volcanic activity. Venus,
@@ -71,17 +71,18 @@ surface temperature.
 
 ### Resources
 Venus's carbon dioxide-rich atmosphere and proximity to Earth make it a lucrative mining world for
-[carbon](Carbon.html), which is in turn used for a variety of carbon-based materials, including
-various superalloys and [nanomaterials](Nanomaterial.html).
+[carbon](Carbon), which is in turn used for a variety of carbon-based materials, including
+various superalloys and [nanomaterials](Nanomaterial).
 
 Although Venus' surface is likely rich in various metals, the harsh atmospheric conditions make
 any sort of surface mining extremely difficult and uncompetitive.
 
 ## Habitation
-Prior to the [First Exchange](First_Exchange.html), settlement in orbit around or in the atmosphere
+Prior to the [First Exchange](First_Exchange), settlement in orbit around or in the atmosphere
 of Venus was limited as habitation of Venus would have only been done for scientific research
 purposes. The development and widespread adoption of carbon-based materials, however, has facilitated
 explosive population growth on Venus.
 
 Much of the Venusian population live on board aerostat habitats suspended in the Venusian atmosphere,
-with some living in orbiting space stations instead.
+with some living in orbiting space stations instead, and some even living on the surface of Venus,
+within the atmosphere.
