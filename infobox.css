@@ -19,15 +19,13 @@
     .infobox {
         width: 20em;
         float: right;
-        margin: 0 0 1em 2em;
+        margin: 0 0 1em 1em;
     }
 
     .infobox table {
-        width: 90%;
+        width: 95%;
     }
 }
-
-
 
 .infobox td,
 .infobox th {
@@ -47,8 +45,12 @@
     font-weight: 500;
 }
 
-.infobox .mainImg {
+.infobox thead .mainImg {
     width: 100%;
+}
+
+.infobox thead .caption {
+    padding-bottom: .4em;
 }
 
 .infobox tbody th {

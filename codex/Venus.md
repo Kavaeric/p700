@@ -36,7 +36,7 @@ categories: Locations
     temp="467"
     ktemp="742"
 
-    pop="340.483 million"
+    pop="240.483 million"
     affil="[Terran Federation](Terran_Federation)"
     settled="12M 050"
     capital="Vesper"

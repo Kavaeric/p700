@@ -21,8 +21,12 @@
             <td colspan="2">
                 <a data-fancybox="gallery" href="media/{{include.image}}">
                     <img src="media/thumb-{{include.image}}">
-                    <span>{{ include.caption }}</span>
                 </a>
+                {% if include.caption != null %}
+                <div class="caption">
+                    {{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}
+                </div>
+                {% endif %}
             </td>
         </tr>
         {% endif %}

@@ -21,9 +21,9 @@ categories: Locations
     synodic="9h 55m 33s"
     sats="Io<br>
           [Europa](Europa)<br>
-          Ganymede<br>
+          [Ganymede](Ganymede)<br>
           [Callisto](Callisto)<br>
-          153 more natural satellites<br>
+          Innumerable natural satellites<br>
           Numerous artificial installations"
 
     mass="1.898 &#215; 10<sup>27</sup>"
@@ -41,7 +41,7 @@ categories: Locations
     pop="25.382 million"
     affil="[Terran Federation](Terran_Federation)"
     settled="12M 066"
-    capital="Cassini ([Callisto]())"
+    capital="Marius ([Callisto](Callisto))"
     %}
 
 **Jupiter** (**Sol f**, or **Sol-V**) is a gas giant of [Sol](Sol) and the largest planet in its

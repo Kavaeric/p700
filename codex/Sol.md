@@ -35,10 +35,10 @@ years old.
 
 Sol is orbited by [Earth](Earth), the capital and homeworld of the [Terran Federation](Terran_Federation).
 Terrans have a consistent presence throughout the Sol system due to the abundance of lucrative mining
-sites across Sol's various planets, moons, and asteroids.
+sites across Sol's various planets and moons.
 
 ## Solar system
-The Solar system has eight planets: Four inner terrestrial planets, two gas giants, and two ice giants.
+The Solar system has nine planets: Four inner terrestrial planets, two gas giants, and three ice giants.
 
 <div class="systemDiagram">
     {% include system_object.html 
@@ -67,8 +67,8 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         moons=luna
     %}
     {% capture marsmoons %}
-    {% include system_moon.html name='Phobos' diameter='.5' %}
-    {% include system_moon.html name='Deimos' diameter='.5' %}
+    {% include system_moon.html name='Phobos' diameter='.4' %}
+    {% include system_moon.html name='Deimos' diameter='.4' %}
     {% endcapture %}
     {% include system_object.html 
         name="Mars"
@@ -79,7 +79,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
     %}
 
     {% capture asteroids %}
-    {% include system_moon.html name='Ceres' diameter='.5' %}
+    {% include system_moon.html name='Ceres' diameter='.4' %}
     {% endcapture %}
     {% include system_object.html
         name="Asteroid belt"
@@ -102,7 +102,11 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         moons=jupitermoons
     %}
     {% capture saturnmoons %}
-    {% include system_moon.html name='Titan' diameter='.75' %}
+    {% include system_moon.html name='Enceladus' article='Enceladus' diameter='.4' %}
+    {% include system_moon.html name='Tethys' article='Tethys' diameter='.5' %}
+    {% include system_moon.html name='Dione' article='Dione' diameter='.5' %}
+    {% include system_moon.html name='Rhea' article='Rhea' diameter='.5' %}
+    {% include system_moon.html name='Titan' article='Titan' diameter='.75' %}
     {% endcapture %}
     {% include system_object.html 
         name="Saturn"
@@ -114,7 +118,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         ringsize="1.8"
     %}
     {% capture uranusmoons %}
-    {% include system_moon.html name='Miranda' diameter='.3' %}
+    {% include system_moon.html name='Miranda' diameter='.4' %}
     {% include system_moon.html name='Ariel' diameter='.5' %}
     {% include system_moon.html name='Umbra' diameter='.5' %}
     {% include system_moon.html name='Titania' diameter='.5' %}
@@ -143,6 +147,6 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         name="Persephone"
         article="Persephone"
         type="body"
-        diameter="2.4"
+        diameter="2.3"
     %}
 </div>

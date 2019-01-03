@@ -32,7 +32,7 @@ categories: Locations
     pop="19.130 million"
     affil="[Terran Federation](Terran_Federation)"
     settled="12M 066"
-    capital="Cassini"
+    capital="Marius"
     %}
 
 **Callisto** is one of the Galilean (major) moons of [Jupiter](Jupiter), the second largest moon of
