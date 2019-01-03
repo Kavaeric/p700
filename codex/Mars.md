@@ -15,10 +15,13 @@ categories: Locations
 
     dist="227 939 000" 
     reldist="1.52"
-    year="686.97"
+    year="686.97d"
     ecc="0.0934"
     sidereal="24h 37m 22s"
     synodic="24h 39m 35s"
+    sats="Phobos<br>
+          Deimos<br>
+          Numerous installations, many derelict"
 
     mass="6.417 &#215; 10<sup>23</sup>"
     relmass="0.11" 

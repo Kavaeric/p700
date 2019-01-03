@@ -16,10 +16,12 @@ categories: Locations
 
     dist="149,598,000" 
     reldist="1.00"
-    year="365.26"
+    year="365.26d"
     ecc="0.0167"
     sidereal="23h 56m 4s"
     synodic="24h"
+    sats="[Luna](Luna)<br>
+          Thousands of artificial installations"
 
     mass="5.972 &#215; 10<sup>24</sup>"
     relmass="1.00" 
@@ -35,10 +37,9 @@ categories: Locations
                  21.0% oxygen gas<br>
                  ~1% water vapour<br>
                  < 1% other gases<br>"
-    temp="13.8"
     ktemp="287"
 
-    pop="15.676 billion"
+    pop="15.676 billion (surface)"
     affil="[Terran Federation](Terran_Federation)"
     settled="Prehistoric"
     capital="[Geneva](Geneva)"
@@ -52,7 +53,7 @@ categories: Locations
            Tokyo<br>
            Istanbul<br>
            Toronto<br>
-           Rio de Janeiro"
+           Rio de Janeiro<br>"
     %}
 
 **Earth** (**Sol d**, or **Sol-III**) is the third planet from the type-G2V star [Sol](Sol).

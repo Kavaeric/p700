@@ -15,17 +15,15 @@ categories: Locations
 
     dist="57 909 050" 
     reldist=".387"
-    year="86.97"
+    year="86.97d"
     ecc="0.206"
-    sidereal="58.67"
-    synodic="175.94"
+    sidereal="58.67d"
+    synodic="175.94d"
 
     mass="3.301 &#215; 10<sup>23</sup>"
     relmass="0.055" 
-    radius="2,440" 
-    relradius="0.38"
+    radius="2,440"
     grav="3.70"
-    relgrav="0.38"
 
     pressure="0"
     composition="43% oxygen<br>
@@ -62,16 +60,20 @@ were slowly transformed into industrial mining facilities, exploiting the plenti
 a means of reducing costs, a strategy prominently hailed as making Mercury more desirable to mine
 than the [Solar asteroid belt](Solar_asteroid_belt.html).
 
-At present, Mercury continues to be mined extensively as well as serving as a technological research
-centre. Its extreme environment has been turned into a blessing as numerous Earth-based companies and
-agencies flock to it for research and testing purposes, while the minimal cost of electricity gives
-ease to those performing energy-intense research.
-
 In the past several decades, a number of individuals and groups have proposed a long-term project of
 disassembling Mercury and using its materials to construct a Dyson swarm around Sol. It, however,
 has gained sparse popularity, as few find the gains of a Solar Dyson swarm advantageous enough,
 especially in light of the [antimatter](Antimatter.html) economy. Not unexpectedly, this proposal is
 even less popular amongst the current inhabitants of Mercury.
+
+## Society and economy 
+At present, Mercury continues to be mined extensively as well as serving as a technological research
+centre. Its extreme environment has been turned into a blessing as numerous Earth-based companies and
+agencies flock to it for research and testing purposes, while the minimal cost of electricity gives
+ease to those performing energy-intense research.
+
+Mercurians typically lean towards the [Social Democratic party](Social_Democratic_Party), though there
+is considerable support for [New Federalist](New_Federalist_Party) politics as well.
 
 ## Geography
 The surface of Mercury is barren and was heavily cratered over millions of years due to its lack

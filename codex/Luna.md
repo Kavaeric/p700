@@ -15,9 +15,10 @@ categories: Locations
     demonym="Lunar"
 
     dist="384 399" 
-    year="27.32"
+    year="27.32d"
     ecc="0.0549"
-    sidereal="27.32"
+    sidereal="27.32d"
+    sats="Numerous artificial installations"
 
     mass="7.342 &#215; 10<sup>22</sup>"
     relmass="0.012" 
@@ -68,15 +69,16 @@ of Luna's internal structure due to Earth's gravitational pull.
 
 ## Society
 Lunar demographics are diverse in all regards, including age and internationality. The Lunar population
-takes as much pride in the economy as well as in their colonial longest colonial history in known space.
-They are generally described as having a rather prim, reticent, even arrogant attitude sometimes.
+takes as much pride in the economy as well as in their longest colonial history in known space. They
+are generally described as having a rather prim and reticent attitude, sometimes even going as far as
+being regarded as arrogant.
 
 Luna is a popular Terran tourist destination, with most traffic incoming from other locations in the
 Sol system.
 
 ### Politics
 Luna's political outlook is influenced greatly by its industrious, often quite centralised economy.
-[Social Democratic](Social_Democratic_party) and [Communist](Communist_party) politics receive
+[Social Democratic](Social_Democratic_Party) and [Communist](Communist_party) politics receive
 much support on Luna. [Labour](Labour_party) politics also see support here, mostly amongst the moon's
 younger population.
 

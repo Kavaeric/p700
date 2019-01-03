@@ -58,7 +58,7 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         type="body"
         diameter="1.3"
     %}
-    {% capture luna %}{% include system_moon.html name='Luna' article='Luna.html' diameter='.75' %}{% endcapture %}
+    {% capture luna %}{% include system_moon.html name='Luna' article='Luna' diameter='.75' %}{% endcapture %}
     {% include system_object.html 
         name="Earth"
         article="Earth"
@@ -90,9 +90,9 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
 
     {% capture jupitermoons %}
     {% include system_moon.html name='Io' diameter='.8' %}
-    {% include system_moon.html name='Europa' diameter='.65' %}
-    {% include system_moon.html name='Ganymede' diameter='.75' %}
-    {% include system_moon.html name='Callisto' diameter='.8' %}
+    {% include system_moon.html name='Europa' article='Europa' diameter='.65' %}
+    {% include system_moon.html name='Ganymede' article='Ganymede' diameter='.75' %}
+    {% include system_moon.html name='Callisto' article='Callisto' diameter='.8' %}
     {% endcapture %}
     {% include system_object.html 
         name="Jupiter"
@@ -138,5 +138,11 @@ The Solar system has eight planets: Four inner terrestrial planets, two gas gian
         type="body"
         diameter="2.4"
         moons=neptunemoons
+    %}
+    {% include system_object.html 
+        name="Persephone"
+        article="Persephone"
+        type="body"
+        diameter="2.4"
     %}
 </div>

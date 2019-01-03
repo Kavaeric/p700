@@ -15,7 +15,7 @@ categories: Locations
 
     dist="108 208 000"
     reldist="0.72"
-    year="224.70"
+    year="224.70d"
     ecc="0.0068"
     sidereal="-243.03d"
     synodic="-116.75d"
