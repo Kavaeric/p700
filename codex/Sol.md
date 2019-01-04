@@ -3,7 +3,7 @@ layout: default
 title: Sol
 accent: var(--cl-yellow)
 section: Codex
-categories: Locations
+categories: [Locations, Stars]
 ---
 
 {% include infobox_star.html 
@@ -18,10 +18,10 @@ categories: Locations
     temp="5,773"
 
     mass="1.99 &#215; 10<sup>30</sup>"
-    relmass="1" 
-    radius="696,400" 
-    relradius="1"
-    grav="274"
+    relmass=1
+    radius=696400
+    relradius=1
+    grav=274
     age="4.45 Gy"
     
     pop="~15.6 billion"

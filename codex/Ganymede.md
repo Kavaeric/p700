@@ -3,7 +3,7 @@ layout: default
 title: Ganymede
 accent: var(--cl-bluegrey)
 section: Codex
-categories: Locations
+categories: [Locations, Moons]
 ---
 {% include infobox_planet.html
     name="Ganymede"
@@ -19,10 +19,10 @@ categories: Locations
     ecc="0.0013"
     sidereal="7.15d"
 
-    mass="1.482 &#215; 10<sup>23</sup>"
-    relmass="0.025" 
-    radius="2,634" 
-    grav="1.43"
+    massBase=1.482
+    massExp=23 
+    radius=2634
+    grav=1.43
 
     pressure="0"
     kmeantemp="110"

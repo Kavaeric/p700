@@ -3,7 +3,7 @@ layout: default
 title: Saturn
 accent: var(--cl-yellow)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html
     name="Saturn"
@@ -30,10 +30,10 @@ categories: Locations
           [Cassini](Cassini) station<br>
           Hundreds of artificial installations"
 
-    mass="5.683 &#215; 10<sup>26</sup>"
-    relmass="95.16" 
-    radius="58,232" 
-    grav="10.44"
+    massBase=5.683
+    massExp=26
+    radius=58232
+    grav=10.44
     age="4.45 Gy"
 
     composition="96% hydrogen<br>
@@ -90,7 +90,10 @@ means, with airtight or underground habitats.
 ## Society
 Saturnians are diverse, as per Terran usual on more populous worlds, as well as being rather outspoken,
 friendly, and lively, sometimes to the point of aloofness. The nightlife is a popular staple in
-Saturnian society. Saturnian politics generally favour those of the
+Saturnian society. Saturnian government is highly formal and stratified, adhering to a very federalist
+model of government.
+
+Saturnian politics are equally as diverse as its population, but generally favour those of the
 [Social Democratic Party](Social_Democratic_Party), as well as more scattered support for more Anarchist
 alignments such as the [Anarchist](Anarchist_Party) or [Social Market](Social_Market_Party) parties.
 

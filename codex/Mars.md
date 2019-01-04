@@ -3,7 +3,7 @@ layout: default
 title: Mars
 accent: var(--cl-orange)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html
     name="Mars"
@@ -23,12 +23,10 @@ categories: Locations
           Deimos<br>
           Numerous installations, many derelict"
 
-    mass="6.417 &#215; 10<sup>23</sup>"
-    relmass="0.11" 
-    radius="3,390" 
-    relradius="0.53"
-    grav="3.72"
-    relgrav="0.38"
+    mass=6.417
+    massExp=23 
+    radius=3390 
+    grav=3.72
     age="4.45 Gy"
 
     pressure="0.64"

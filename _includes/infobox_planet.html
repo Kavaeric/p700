@@ -92,25 +92,56 @@
 
         <tr><th colspan="2">Physical characteristics</th></tr>
         <tr>
+            {% comment %}
+                We need to calculate the mass of the body. With all the zeroes. All. Of. Them.
+            {% endcomment %}
+            {% assign massExpMult = 1.0 %}
+            {% for i in (1..include.massExp) %}
+                {% assign massExpMult = massExpMult | times: 10.0 %}
+            {% endfor %}
+
+            {% assign mass = include.massBase | times: massExpMult %}
+
+            {% assign EARTHMASS = 5972198600000000000000000.0 %}
+            {% assign LUNAMASS = 73459000000000000000000.0 %}
+            
             <td class="infoname" rowspan="2">Mass</td>
-            <td>{{ include.mass }} kg</td>
+            <td>{{ include.massBase }} &#215; 10<sup>{{ include.massExp }}</sup> kg</td>
         </tr>
-        <tr>
-            <td>{{ include.relmass }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
+        <tr>            
+            {% if include.massExp <= 22 and include.name != "Luna" %}
+            <td>{{ mass | divided_by: LUNAMASS | round: 3 }} M<a href="Luna.html"><sub>&#9790;</sub></a></td>
+            {% elsif include.massExp <= 24 %}
+            <td>{{ mass | divided_by: EARTHMASS | round: 3 }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% elsif include.massExp <= 25 %}
+            <td>{{ mass | divided_by: EARTHMASS | round: 2 }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% else %}
+            <td>{{ mass | divided_by: EARTHMASS | round: 1 }} M<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% endif %}
         </tr>
         <tr>
             <td class="infoname" rowspan="2">Mean radius</td>
-            <td>{{ include.radius }} km</td>
+            <td>{{ include.radius | intcomma }} km</td>
         </tr>
         <tr>
-            <td>{{ include.radius | remove: ',' | divided_by: 6371.0 | round: 3 }} R<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% if include.parent !=null or include.radius <= 1600.0 %}
+            <td>{{ include.radius | divided_by: 1737.0 | round: 3 }} R<a href="Luna.html"><sub>&#9790;</sub></a></td>
+            {% else %}
+            <td>{{ include.radius | divided_by: 6371.0 | round: 3 }} R<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% endif %}
         </tr>
         <tr>
             <td class="infoname" rowspan="2">Surface gravity</td>
             <td>{{ include.grav }} m/s<sup>2</sup></td>
         </tr>
         <tr>
-            <td>{{ include.grav | remove: ',' | divided_by: 9.81 | round: 3 }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% if include.grav <= 1.0 %}
+            <td>{{ include.grav | divided_by: 9.81 | round: 4 }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% elsif include.grav <= 15.0 %}
+            <td>{{ include.grav | divided_by: 9.81 | round: 3 }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% else %}
+            <td>{{ include.grav | divided_by: 9.81 | round: 2 }} g<a href="Earth.html"><sub>&#8853;</sub></a></td>
+            {% endif %}
         </tr>
 
         <tr><th colspan="2">Climate and atmosphere</th></tr>
@@ -211,3 +242,4 @@
     </tbody>
 </table>
 </div>
+

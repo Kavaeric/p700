@@ -3,7 +3,7 @@ layout: default
 title: Jupiter
 accent: var(--cl-orange)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html
     name="Jupiter"
@@ -26,12 +26,10 @@ categories: Locations
           Innumerable natural satellites<br>
           Numerous artificial installations"
 
-    mass="1.898 &#215; 10<sup>27</sup>"
-    relmass="317.8" 
-    radius="69,911" 
-    relradius="10.97"
-    grav="24.79"
-    relgrav="2.53"
+    massBase=1.898
+    massExp=27
+    radius=69911 
+    grav=24.79
     age="4.45 Gy"
 
     composition="88.9% hydrogen<br>

@@ -19,10 +19,10 @@ categories: Locations
     ecc="0.009"
     sidereal="3.55d"
 
-    mass="4.80 &#215; 10<sup>22</sup>"
-    relmass="0.008" 
-    radius="1,561" 
-    grav="1.43"
+    massBase=4.80
+    massExp=22
+    radius=1561 
+    grav=1.43
 
     pressure="0"
     kmeantemp="110"

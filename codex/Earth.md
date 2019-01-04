@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Earth
-accent: var(--cl-green)
+accent: var(--cl-blue)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html
     name="Earth"
@@ -23,12 +23,10 @@ categories: Locations
     sats="[Luna](Luna)<br>
           Thousands of artificial installations"
 
-    mass="5.972 &#215; 10<sup>24</sup>"
-    relmass="1.00" 
-    radius="6,371" 
-    relradius="1.0"
-    grav="9.81"
-    relgrav="1.0"
+    massBase=5.972
+    massExp=24
+    radius=6371
+    grav=9.81
     age="4.45 Gy"
 
     pressure="101.325"

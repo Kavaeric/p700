@@ -3,7 +3,7 @@ layout: default
 title: Callisto
 accent: var(--cl-redlight)
 section: Codex
-categories: Locations
+categories: [Locations, Moons]
 ---
 {% include infobox_planet.html
     name="Callisto"
@@ -20,12 +20,10 @@ categories: Locations
     sidereal="16.69d"
     sats="Johannes Station"
 
-    mass="1.076 &#215; 10<sup>23</sup>"
-    relmass="0.018" 
-    radius="2,410" 
-    relradius="0.38"
-    grav="1.24"
-    relgrav="0.13"
+    massBase=1.076
+    massExp=23
+    radius=2410
+    grav=1.24
 
     pressure="0"
 

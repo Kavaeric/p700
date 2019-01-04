@@ -1,29 +1,31 @@
 ---
 layout: default
-title: Luna
-accent: var(--cl-bluegrey)
+title: Rhea
+accent: var(--cl-orange)
 section: Codex
 categories: [Locations, Moons]
 ---
 {% include infobox_planet.html
-    name="Luna"
-    parent="Earth"
+    name="Rhea"
+    parent="Saturn"
     system="Sol"
     quarter="Terran Core Quarter"
-    catname="Sol d-I"
-    cattime="Ancient"
-    demonym="Lunar"
+    image="Rhea.jpg"
+    caption="Rhea, seen in front of [Saturn](Saturn)."
+    catname="Sol g-V"
+    cattime="11M 672"
+    demonym="Rhean"
 
-    dist="384 399" 
-    year="27.32d"
-    ecc="0.0549"
-    sidereal="27.32d"
+    dist="527 108" 
+    year="4.52d"
+    ecc="0.00126"
+    sidereal="4.52d"
     sats="Numerous artificial installations"
 
-    massBase=7.346
-    massExp=22
-    radius=1737 
-    grav=1.62
+    massBase=2.306
+    massExp=21
+    radius=763.8 
+    grav=0.264
 
     pressure="0"
     khightemp="400"

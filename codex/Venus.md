@@ -3,7 +3,7 @@ layout: default
 title: Venus
 accent: var(--cl-yellow)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html
     name="Venus"
@@ -20,12 +20,10 @@ categories: Locations
     sidereal="-243.03d"
     synodic="-116.75d"
 
-    mass="4.868 &#215; 10<sup>24</sup>"
-    relmass="0.82" 
-    radius="6,052" 
-    relradius="0.95"
-    grav="8.87"
-    relgrav="0.90"
+    massBase=4.868
+    massExp=24
+    radius=6052
+    grav=8.87
     age="4.45 Gy"
 
     pressure="9,200"
@@ -39,7 +37,7 @@ categories: Locations
     pop="240.483 million"
     affil="[Terran Federation](Terran_Federation)"
     settled="12M 050"
-    capital="Vesper"
+    capital="Morningside"
     %}
 
 **Venus** (**Sol c**, or **Sol-II**) is the second planet from [Sol](Sol), a neighbour planet to

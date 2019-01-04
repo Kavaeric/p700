@@ -3,7 +3,7 @@ layout: default
 title: Mercury
 accent: var(--cl-yellowlight)
 section: Codex
-categories: Locations
+categories: [Locations, Planets]
 ---
 {% include infobox_planet.html 
     name="Mercury"
@@ -20,10 +20,10 @@ categories: Locations
     sidereal="58.67d"
     synodic="175.94d"
 
-    mass="3.301 &#215; 10<sup>23</sup>"
-    relmass="0.055" 
-    radius="2,440"
-    grav="3.70"
+    massBase=3.301
+    massExp=23
+    radius=2440
+    grav=3.70
 
     pressure="0"
     composition="43% oxygen<br>
